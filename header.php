@@ -5,22 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <?php wp_head();?>
+    <?php wp_head(); ?>
     
 </head>
 <body>
 
 <header>
     <div class="container">
-    <?php
-    wp_nav_menu(
-        array(
-            'theme_location' => 'top-menu',
-            'menu_class' => 'top-bar',
-            // 'menu' => 'Tob Bar',
-        )
-    );
-    ?>
+    <?php wp_nav_menu([
+      "theme_location" => "top-menu",
+      "menu_class" => "top-bar",
+      // 'menu' => 'Tob Bar',
+    ]); ?>
     </div>  
 </header>
     
