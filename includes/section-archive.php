@@ -1,9 +1,10 @@
+<div class="row content">
 <?php if (have_posts()):
   while (have_posts()):
     the_post(); ?>
 
     <div class="card m-3">
-        <div class="card-body d-flex justify-content-center align-items-center">
+        <div class="card-body d-flex">
             <?php if (has_post_thumbnail()): ?>
                 <img src="<?php the_post_thumbnail_url(
                   "blog-small"
@@ -22,5 +23,5 @@
 <?php
   endwhile;
 else:
-endif;
-?>
+endif; ?>
+</div>

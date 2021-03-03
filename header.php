@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <meta
+  name="description"           
+  content="Сайт СОШ № 653
+        Калининского района Санкт-Петербурга
+        имени Рабиндраната Тагора">
     <?php wp_head(); ?>
-    
 </head>
-<body>
+<body <?php body_class(); ?> >
+<div class="page-wrapper">
 
-<header>
-    <div class="container">
-    <?php wp_nav_menu([
-      "theme_location" => "top-menu",
-      "menu_class" => "top-bar",
-      // 'menu' => 'Tob Bar',
-    ]); ?>
-    </div>  
-</header>
+        <?php get_template_part("components/hero-section"); ?>
+        
+        <?php get_template_part("components/navbar"); ?>
+
+
     
+
+
+
+<!-- 
+     <div class="container">
+     <?php
+// wp_nav_menu([
+//  "theme_location" => "top-menu",
+//  "menu_class" => "top-bar",
+//  "menu" => "Tob Bar",
+//]);
+?>
+     </div>   -->
