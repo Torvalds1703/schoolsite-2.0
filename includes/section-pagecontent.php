@@ -1,13 +1,9 @@
 <main class="main-content">
 <div class="row">
 
-    <?php if (is_active_sidebar("page-sidebar")): ?>
-        <?php dynamic_sidebar("page-sidebar"); ?>
-    <?php endif; ?>
-
     <?php if (has_post_thumbnail()): ?>
         <img src="<?php the_post_thumbnail_url(
-          "blog-large"
+          'blog-large'
         ); ?>" alt="" class="img-fluid mb-3 img-thumbnail">
     <?php endif; ?>
 
