@@ -1,7 +1,7 @@
 // hero-section
 
 .hero-section {
-  background-image: url('http://localhost/wp-content/uploads/2021/02/hero-image.jpg');
+  background-image: url("http://localhost/wp-content/uploads/2021/02/hero-image.jpg");
   background-size: cover;
 }
 
@@ -12,9 +12,7 @@
 // citation
 .citation {
   position: relative;
-
   display: block;
-
   margin: 0;
   padding: map-get($spacers, 5) map-get($spacers, 4) map-get($spacers, 3);
 
@@ -31,7 +29,7 @@
     font-size: $display1-size;
     // font-family: $font-family-serif;
 
-    content: '“';
+    content: "“";
   }
 
   & > &-footer {
@@ -39,6 +37,8 @@
     padding-top: map-get($spacers, 2);
 
     font-size: $blockquote-small-font-size;
+    // color: $dark;
+    font-weight: bold;
     font-style: italic;
 
     border-top: 1px solid;

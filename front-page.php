@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
-<div class="container-fluid mt-5">
+<div class="container-fluid mt-3">
   <div class="row align-content-center">
     <div class="col-12 col-lg-9">
-      <div class="row flex-column flex-lg-row text-justify">
+      <div class="row flex-column flex-lg-row text-justify align-items-center ">
         <div class="col-12 col-lg-6">
           <blockquote class="citation citation-success">
-            <div class="citation-body mt-3">
+            <div class="citation-body">
               <!-- Дорогие гости нашего сайта! Я рада приветствовать вас на сайте
               нашей школы. Наш сайт создан для всех, кто интересуется жизнью
               школы, её планами и достижениями, кому важно узнать о
@@ -53,11 +53,8 @@
       </div>
     </div>
     <div class="d-none d-lg-block col-3">
-      <div class="p-3 border border-secondary">
-        <?php get_template_part('components/aside'); ?>
-        <?php get_template_part('components/aside'); ?>
-        <?php get_template_part('components/aside'); ?>
-        <?php get_template_part('components/aside'); ?>
+      <div class="p-3 mt-1 border border-secondary">
+      <?php get_sidebar(); ?>
       </div> 
     </div>
   </div>

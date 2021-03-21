@@ -1,20 +1,17 @@
 <?php get_header(); ?>
 
-<?php get_template_part("includes/section", "archive"); ?>
-
-<?php
-global $wp_query;
-
-$big = 999999999999;
-
-echo paginate_links([
-  "base" => str_replace($big, "%#%", esc_url(get_pagenum_link($big))),
-  "format" => "?paged=%#%",
-  "current" => max(1, get_query_var("paged")),
-  "total" => $wp_query->max_num_pages,
-]);
-?>
-
+<div class="container-fluid mt-3">
+  <div class="row align-content-center">
+    <div class="col-12 col-lg-9">
+      <?php get_template_part("includes/section", "archive"); ?>
+    </div>
+    <div class="d-none d-lg-block col-3">
+      <div class="p-3 mt-1 border border-secondary">
+      <?php get_sidebar(); ?>
+      </div> 
+    </div>
+  </div>
+</div>
 
 <?php get_footer();
 ?>

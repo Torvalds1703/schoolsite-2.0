@@ -14,7 +14,7 @@
     </div>
 
     <div
-      class="col-12 col-lg-9 col-xl-6 text-center d-flex flex-column justify-content-between"
+      class="col-12 col-lg-9 col-xl-6 text-center d-flex flex-column "
     >
       <div class="text-muted info ">
         Государственное бюджетное образовательное учреждение

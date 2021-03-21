@@ -15,7 +15,11 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^3.0.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
     "prettier": "^2.2.1",
-    "rfs": "^9.0.3"
+    "rfs": "^9.0.3",
+    "webpack": "^5.25.1",
+    "webpack-cli": "^4.5.0"
   }
 }

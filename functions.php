@@ -5,7 +5,7 @@ function load_css()
 {
   wp_register_style(
     "main",
-    get_template_directory_uri() . "/build/css/main.min.css",
+    get_template_directory_uri() . "/build/css/main.css",
     [],
     microtime(),
     "all"
@@ -21,13 +21,13 @@ function load_js()
 {
   wp_enqueue_script("jquery");
   wp_register_script(
-    "bootstrap",
-    get_template_directory_uri() . "/js/bootstrap.min.js",
+    "bootstrap-components",
+    get_template_directory_uri() . "/build/js/bundle.js",
     "jquery",
     microtime(),
     true
   );
-  wp_enqueue_script("bootstrap");
+  wp_enqueue_script("bootstrap-components");
 }
 
 add_action("wp_enqueue_scripts", "load_js");
