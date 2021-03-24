@@ -3,6 +3,7 @@
 @import "mixins";
 @import "layout";
 @import "typography";
+@import "widgets";
 
 // Override Bootstrap's Sass default variables
 //
@@ -14,21 +15,16 @@
 // CSS without writing _new_ styles. For example, change you can either change
 // `$body-color` or write more CSS that override's Bootstrap's CSS like so:
 // `body { color: red; }`.
-
 //
 // Bring in Bootstrap
 //
-
 // Option 1
 //
 // Import all of Bootstrap's CSS
-
 // @import "bootstrap/scss/bootstrap";
-
 // Option 2
 //
 // Import just the styles you need. Note that some stylesheets are required no matter what.
-
 @import "../node_modules/bootstrap/scss/functions"; // Required
 @import "../node_modules/bootstrap/scss/variables"; // Required
 @import "../node_modules/bootstrap/scss/mixins"; // Required
@@ -55,7 +51,7 @@
 
 // @import "bootstrap/scss/code";
 @import "../node_modules/bootstrap/scss/grid";
-// @import "bootstrap/scss/tables";
+@import "../node_modules/bootstrap/scss/tables";
 // @import "bootstrap/scss/forms";
 @import "../node_modules/bootstrap/scss/buttons";
 @import "../node_modules/bootstrap/scss/transitions";

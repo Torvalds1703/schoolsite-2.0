@@ -1,4 +1,3 @@
-<main class="main-content">
 <div class="row">
 
     <?php if (has_post_thumbnail()): ?>
@@ -7,12 +6,7 @@
         ); ?>" alt="" class="img-fluid mb-3 img-thumbnail">
     <?php endif; ?>
 
-
-    <div class="row">
-      <h1 class="col">
-        <?php the_title(); ?>
-      </h1>
-    </div>
+  <h1 class="page-header"><?php the_title();?></h1> 
 
     <div class="row">
       <div class="col">
@@ -28,5 +22,4 @@
        </div>
     </div>
 </div>
-</main>
 

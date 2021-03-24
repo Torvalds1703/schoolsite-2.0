@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
-<div class="container mt-3">
+<div class="container mt-3 mb-3">
   <div class="row">
     <?php if (has_post_thumbnail()): ?>
       <div class="col">
         <img src="<?php the_post_thumbnail_url(
           "blog-large"
-        ); ?>" alt="" class="img-fluid mb-3 img-thumbnail">
+        ); ?>" alt="" class="img-fluid img-thumbnail">
       </div>
     <?php endif; ?>
           

@@ -1,5 +1,29 @@
 <?php
 
+use Carbon_Fields\Container;
+use Carbon_Fields\Field;
+
+add_action( 'carbon_fields_register_fields', 'crb_attach_post_meta' );
+function crb_attach_post_meta() {
+    Container::make( 'post_meta', __( 'Page Options', 'crb' ) )
+        ->where( 'post_type', '=', 'page' ) // only show our new fields on pages
+        ->add_fields( array(
+            Field::make( 'complex', 'crb_documents', 'Документы' )
+            	->set_layout( 'tabbed-horizontal' )
+            	->add_fields( array(
+            		Field::make( 'text', 'doc-title', 'Название документа' ),
+            		Field::make( 'file', 'doc-file', 'Файл'),
+            	) ),
+        ) );
+}
+
+add_action( 'after_setup_theme', 'crb_load' );
+function crb_load() {
+    require_once( ABSPATH . '/vendor/autoload.php' );
+    \Carbon_Fields\Carbon_Fields::boot();
+}
+
+
 // Load Stylesheets
 function load_css()
 {
