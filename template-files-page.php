@@ -6,12 +6,12 @@ Template Name: Files Page
 
 <?php get_header(); ?>
 
-<section class="page-wrap">
-<div class="container mt-3">
 
-    <div class="col">
-      <?php get_template_part("includes/section", "pagecontent"); ?>
-    </div>
+  <div class="row align-content-center">
+    <div class="col-12 col-lg-9">
+    
+
+    <?php get_template_part("includes/section", "pagecontent"); ?>
 
     <table class=" col table table-borderless table-hover table-striped">
         <thead>
@@ -36,9 +36,15 @@ Template Name: Files Page
             ?>
         </tbody>
       </table>
-</div>
-</section>
 
+
+    </div>
+    <div class="d-none d-lg-block col-3">
+      <div class="p-3 mt-1 border border-secondary">
+      <?php get_sidebar(); ?>
+      </div> 
+    </div>
+  </div>
 
 <?php get_footer();
 ?>

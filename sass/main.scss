@@ -1,7 +1,6 @@
 @import "base";
 @import "../node_modules/rfs/scss";
 @import "mixins";
-@import "layout";
 @import "typography";
 @import "widgets";
 
@@ -30,6 +29,7 @@
 @import "../node_modules/bootstrap/scss/mixins"; // Required
 
 @import "components";
+@import "layout";
 
 //
 // Override Bootstrap here

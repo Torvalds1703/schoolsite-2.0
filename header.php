@@ -11,24 +11,8 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
-<div class="page-wrapper">
-
         <?php get_template_part("components/hero-section"); ?>
         
         <?php get_template_part("components/navbar"); ?>
 
-    
-    
-
-
-
-<!-- 
-     <div class="container">
-     <?php
-// wp_nav_menu([
-//  "theme_location" => "top-menu",
-//  "menu_class" => "top-bar",
-//  "menu" => "Tob Bar",
-//]);
-?>
-     </div>   -->
+        <div class="page-container container-fluid">
