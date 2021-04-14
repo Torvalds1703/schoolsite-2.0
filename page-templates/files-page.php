@@ -8,7 +8,7 @@ Template Name: Files Page
 
 
   <div class="row align-content-center">
-    <div class="col-12 col-lg-9">
+    <div class="col-12 col-lg-9 px-5">
     
 
     <?php get_template_part("includes/section", "pagecontent"); ?>

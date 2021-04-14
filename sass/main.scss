@@ -60,8 +60,8 @@
 // @import "bootstrap/scss/input-group"; // Requires forms
 // @import "bootstrap/scss/custom-forms";
 @import "../node_modules/bootstrap/scss/nav";
-@import "../node_modules/bootstrap/scss/navbar"; // Requires nav
-// @import "bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/card"; // Requires nav
 // @import "bootstrap/scss/breadcrumb";
 // @import "bootstrap/scss/pagination";
 @import "../node_modules/bootstrap/scss/badge";

@@ -29,7 +29,7 @@
 
       <div>
         <a href="<?php echo site_url(
-          "/about-us"
+          "/about-us/svedeniya-ob-obrazovatelnoj-organiz/"
         ); ?>" class="text-info bg-white p-1">Сведения об образовательной организации</a>
       </div>
     </div>

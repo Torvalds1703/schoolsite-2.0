@@ -8,8 +8,9 @@ use Carbon_Fields\Field;
 
 add_action( 'carbon_fields_register_fields', 'crb_attach_post_meta' );
 function crb_attach_post_meta() {
+
     Container::make( 'post_meta', __( 'Page Options', 'crb' ) )
-        ->where( 'post_type', '=', 'page' ) // only show our new fields on pages
+        ->show_on_template('page-templates/files-page.php')
         ->add_fields( array(
             Field::make( 'complex', 'crb_documents', 'Документы' )
             	->set_layout( 'tabbed-horizontal' )
@@ -18,6 +19,38 @@ function crb_attach_post_meta() {
             		Field::make( 'file', 'doc-file', 'Файл'),
             	) ),
         ) );
+
+    Container::make( 'post_meta', __( 'Page Options', 'crb' ) )
+        ->show_on_template('page-templates/documents-collapse.php')
+        ->add_fields( array(
+            Field::make( 'complex', 'crb_docs_groups', 'Группа документов' )
+            	->add_fields( array(
+            		Field::make( 'text', 'group-title', 'Название группы документов' ),
+                Field::make( 'complex', 'crb_docs', 'Документы' )
+                ->set_layout( 'tabbed-horizontal' )
+                ->add_fields( array(
+                  Field::make( 'text', 'doc-title', 'Название документа' ),
+                  Field::make( 'file', 'doc-file', 'Файл'),
+                ) ),
+            	) ),
+        ) );    
+
+        Container::make( 'post_meta', __( 'Page Options', 'crb' ) )
+        ->show_on_template('page-templates/organization-info.php')
+        ->add_fields( array(
+            Field::make( 'complex', 'crb_reqs_groups', 'Группа разделов требований' )
+            	->add_fields( array(
+            		Field::make( 'text', 'group-title', 'Название раздела требований' ),
+                Field::make( 'file', 'requirements', 'Страница из требований Рособрнадзора'),
+                Field::make( 'complex', 'crb_pages', 'Блок ссылок на страницы' )
+                ->set_layout( 'tabbed-horizontal' )
+                ->add_fields( array(
+                  Field::make( 'text', 'page-title', 'Название раздела требований' ),
+                  Field::make( 'text', 'page-link', 'Ссылка на страницу сайта' ),
+                ),
+              ),
+            	) ),
+        ) );   
 }
 
 add_action( 'after_setup_theme', 'crb_load' );
