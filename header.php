@@ -11,8 +11,6 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
-        <?php get_template_part("components/hero-section"); ?>
-        
-        <?php get_template_part("components/navbar"); ?>
-
-        <div class="page-container container-fluid">
+    <?php get_template_part("components/hero-section"); ?>
+    <?php get_template_part("components/navbar"); ?>
+    <div class="page-container container-fluid">

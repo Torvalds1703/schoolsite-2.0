@@ -3,6 +3,7 @@
 .hero-section {
   background-image: url("http://localhost/wp-content/uploads/2021/02/hero-image.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .logo {
@@ -15,21 +16,17 @@
   display: block;
   margin: 0;
   padding: map-get($spacers, 5) map-get($spacers, 4) map-get($spacers, 3);
-
   color: $blockquote-small-color;
   font-size: $blockquote-font-size;
-
   border-radius: $border-radius;
   @include box-shadow($box-shadow);
 
   &::before {
     position: absolute;
     top: -#{map-get($spacers, 4)};
-
     font-size: $display1-size;
-    // font-family: $font-family-serif;
-
     content: "“";
+    color: $secondary;
   }
 
   & > &-footer {
@@ -37,10 +34,20 @@
     padding-top: map-get($spacers, 2);
 
     font-size: $blockquote-small-font-size;
-    // color: $dark;
+    color: $dark;
     font-weight: bold;
     font-style: italic;
 
     border-top: 1px solid;
+  }
+}
+
+// accordion-requirements
+
+.accordion-requirements {
+  > div {
+    ul {
+      list-style-type: square;
+    }
   }
 }

@@ -147,3 +147,30 @@ function register_navwalker()
   require_once get_template_directory() . "/class-wp-bootstrap-navwalker.php";
 }
 add_action("after_setup_theme", "register_navwalker");
+
+
+//Add Teachers Category
+
+function school_post_types ()
+{
+  register_post_type('event', array(
+    'public' => true,
+    
+    'labels' => array(
+      'name' => 'Учителя'
+    ),
+    'menu_icon' => 'dashicons-businesswoman'
+  ));
+}
+
+add_action('init', 'school_post_types');
+
+
+function get_teachers ()
+{
+  global $wpdb;
+  $teachers = $wpdb->get_results( "SELECT * FROM teachers" );
+
+}
+
+

@@ -3,24 +3,19 @@
 <div class="container-fluid mt-3">
   <div class="row align-content-center">
     <div class="col-12 col-lg-9">
-      <div class="row flex-column flex-lg-row text-justify">
-        <div class="col-12 col-lg-6">
+      <div class="row flex-column flex-lg-row text-left align-items-center">
+        <div class="col-12 order-2 col-xl-6">
           <blockquote class="citation citation-success">
             <div class="citation-body">
-              <!-- Дорогие гости нашего сайта! Я рада приветствовать вас на сайте
-              нашей школы. Наш сайт создан для всех, кто интересуется жизнью
-              школы, её планами и достижениями, кому важно узнать о
-              педагогическом коллективе, образовательных программах и
-              воспитательной работе. Приглашаем вас чаще бывать на страницах
-              нашего информационного ресурса. -->
-              В нашей школе работает дружный, высококвалифицированный коллектив, способный дать учащимся глубокие, прочные знания. Многое меняется, но одно остаётся неизменным: школа, как и прежде, существует только для детей и старается дать своим ученикам условия благополучия, успеха и комфорта.  За время работы школы накоплен определённый опыт и созданы традиции, но верится, что все лучшее ещё впереди. Впереди новые цели и задачи! Мы ясно понимаем перспективы и направления дальнейшего развития. И мы уверены, что сможем достичь многого. В добрый путь!
+              Дорогие гости, я рада приветствовать вас на сайте
+              нашей школы! У нас дружный, высококвалифицированный коллектив, способный дать учащимся глубокие, прочные знания. Многое меняется, но одно остаётся неизменным: школа, как и прежде, существует только для детей и старается дать своим ученикам условия для благополучия, успеха и комфорта. За время работы школы накоплен определённый опыт и созданы традиции, но верится, что все лучшее ещё впереди. Впереди новые цели и задачи! Мы ясно понимаем перспективы и направления дальнейшего развития. И мы уверены, что сможем достичь многого. В добрый путь!
             </div>
             <div class="citation-footer">
               <cite>Директор ГБОУ СОШ №653 Е.Н. Шубина</cite>
             </div>
           </blockquote>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 order-1 col-xl-6">
           <img
             src="<?php echo get_theme_file_uri('/images/director.jpg'); ?>"
             alt="Фотография директора школы"
@@ -31,24 +26,18 @@
         <div class="row mt-3">
           <div class="col-12 pl-4">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-            </p>
+            За годы работы образовательное учреждение дало путёвку в жизнь более чем 2000 выпускникам. Каждый из них, выбрав свой жизненный путь, сумел реализовать собственные стремления и планы. Школа гордится своими воспитанниками. </p>
+            
+            <p>Многие выпускники занимают достойное положение в обществе и являются грамотными лингвистами, профессиональными переводчиками, мужественными офицерами, талантливыми режиссёрами, врачами, инженерами, учёными и др. Не смотря на столь разнообразный род профессиональной деятельности, всех наших выпускников объединяет, прежде всего, любовь к школе.</p>
+
+            <p> Многие выпускники занимают достойное положение в обществе и являются грамотными лингвистами, профессиональными переводчиками, мужественными офицерами, талантливыми режиссёрами, врачами, инженерами, учёными и др. Не смотря на столь разнообразный род профессиональной деятельности, всех наших выпускников объединяет, прежде всего, любовь к школе и глубокая благодарность за то, что она воспитала в них серьёзное отношение к учёбе, стремление к знаниям, качественному труду, а самое главное – сумела вырастить их настоящими людьми. </p>
+
+            <p>   Это результат слаженной работы педагогического коллектива, который из поколения в поколение передаёт добрые традиции школы. Сотрудничество педагогов, учеников, родителей, основанное на взаимоуважении и взаимопомощи, является залогом успеха нашего образовательного учреждения. Педагогический коллектив шагает в ногу со временем, внедряет в работу новые образовательные стандарты, претворяет в жизнь планы переоснащения и укрепления материально-технической базы.</p>
+
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
+            В нашей школе работает дружный, высококвалифицированный коллектив, способный дать учащимся глубокие, прочные знания. Многое меняется, но одно остаётся неизменным: школа, как и прежде, существует только для детей и старается дать своим ученикам условия благополучия, успеха и комфорта.  За время работы школы накоплен определённый опыт и созданы традиции, но верится, что все лучшее ещё впереди. Впереди новые цели и задачи! Мы ясно понимаем перспективы и направления дальнейшего развития. И мы уверены, что сможем достичь многого. В добрый путь!
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim veritatis ut. Voluptas eaque ab molestiae incidunt. Repellendus tempore perferendis reprehenderit dicta, vitae eius beatae quod dolorum ex, cumque perspiciatis!
-            </p>
+
           </div>
       </div>
     </div>
