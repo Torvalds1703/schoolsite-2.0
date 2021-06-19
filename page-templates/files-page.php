@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Files Page
+Template Name: Документы
 */
 ?>
 
@@ -29,7 +29,7 @@ Template Name: Files Page
                 echo '<tr>';
                 echo '<td>' . $counter . '</td>';
                 echo '<td> ' . $document['doc-title'] . '</td>';
-                echo '<td><a href="' . wp_get_attachment_url($document['doc-file']) . '">Скачать</a></td>';
+                echo '<td><a href="' . wp_get_attachment_url($document['doc-file']) . '">cкачать</a></td>';
                 echo '</tr>';
                 $counter = $counter + 1;
               }

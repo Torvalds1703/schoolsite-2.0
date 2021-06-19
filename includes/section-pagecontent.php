@@ -5,7 +5,7 @@
         ); ?>" alt="" class="img-fluid mb-3 img-thumbnail">
     <?php endif; ?>
 
-  <h1 class="page-header mb-4 mt-4 h4 font-weight-bold"><?php the_title();?></h1> 
+  <h1 class="mb-4 mt-4 font-weight-bold page-heading"><?php the_title();?></h1> 
 
     <div class="row">
       <div class="col">

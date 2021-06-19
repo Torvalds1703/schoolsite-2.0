@@ -7,10 +7,9 @@ aside > li {
 }
 
 /* calendar widget */
-.widget_calendar {
-  float: left;
-}
-#wp-calendar {
+
+#wp-calendar,
+#calendar-wrap {
   width: 100%;
 }
 #wp-calendar caption {
@@ -33,7 +32,7 @@ aside > li {
   background: #f5f5f5;
   border: 1px solid #fff;
   text-align: center;
-  padding: 8px;
+  padding: 3px;
 }
 #wp-calendar tbody td:hover {
   background: #fff;

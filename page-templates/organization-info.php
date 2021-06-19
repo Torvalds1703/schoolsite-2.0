@@ -22,7 +22,7 @@ Template Name: Новые Сведения об ОО
       </h2>
     </div>
 
-    <div id="collapse-1" class="collapse" aria-labelledby="heading-1" data-parent="#accordionRequirements">
+    <div id="collapse-1" class="collapse show" aria-labelledby="heading-1" data-parent="#accordionRequirements">
       <div class="card-body">
       <p><a href="<?php echo site_url(
                "/wp-content/uploads/2021/04/pr_831_3.1.pdf"
@@ -155,24 +155,35 @@ Template Name: Новые Сведения об ОО
     </div>
     <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordionRequirements">
       <div class="card-body">
-      <p><a href="<?php echo site_url(
-               "/wp-content/uploads/2021/04/pr_831_3.4.pdf"
-              ); ?>">Требования к контенту раздела</a></p>
-      <ul>
+      <p>
+        <a href="<?php echo site_url(
+            "/wp-content/uploads/2021/04/pr_831_3.4.pdf"
+            ); ?>">Требования к контенту раздела
+        </a>
+      </p>
+          <ul>
             <li>
-              <a href="">Реализуемые образовательные программы</a>
+               <a href="<?php echo site_url(
+               "/about-us/obrazovatelnye-programmy"
+                ); ?>">Реализуемые образовательные программы
+              </a>
             </li>
             <li>
-              <a href="">Реализуемые профессиональные образовательные программы</a>
+              Реализуемые профессиональные образовательные программы <i>(не предусмотрено)</i>
             </li>
             <li>
-              <a href="">Результаты приема по каждой профессии, специальности среднего профессионального образования</a>
+               Результаты приема по каждой профессии, специальности среднего профессионального образования <i>(не предусмотрено)</i>
             </li>
             <li>
-              <a href="">Численность обучающихся</a>
+              <a href="<?php echo site_url(
+               "/about-us/obrazovatelnye-programmy"
+              ); ?>">Численность обучающихся
+              </a>
             </li>
             <li>
-              <a href="">Лицензия на осуществление образовательной деятельности</a>
+            <a href="<?php echo site_url(
+            "/wp-content/uploads/2021/05/liczenziya.pdf"
+            ); ?>">Лицензия на осуществление образовательной деятельности</a>
             </li>
           </ul>
       </div>
@@ -194,10 +205,12 @@ Template Name: Новые Сведения об ОО
               ); ?>">Требования к контенту раздела</a></p>
       <ul>
             <li>
-              <a href="">Применяемые федеральные государственные образовательные стандарты</a>
+            <a href="<?php echo site_url(
+               "/deyatelnost/obrazovatelnye-standarty/"
+              ); ?>">Применяемые федеральные государственные образовательные стандарты</a>
             </li>
             <li>
-              <a href="">Утвержденные образовательные стандарты</a>
+              Утвержденные образовательные стандарты <i>(не предусмотрено)</i>
             </li>
           </ul>
       </div>

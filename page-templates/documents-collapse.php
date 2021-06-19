@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Documents Collapse
+Template Name: Аккордеон
 */
 ?>
 

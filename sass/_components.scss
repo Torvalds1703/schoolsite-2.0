@@ -47,7 +47,11 @@
 .accordion-requirements {
   > div {
     ul {
-      list-style-type: square;
+      list-style-type: circle;
+    }
+
+    button {
+      color: $gray-600;
     }
   }
 }
