@@ -1,7 +1,7 @@
 "use strict";
 
 var gulp = require("gulp"),
-  sass = require("gulp-sass"),
+  sass = require("gulp-sass")(require("sass")),
   livereload = require("gulp-livereload"),
   sourcemaps = require("gulp-sourcemaps"), // модуль для генерации карты исходных файлов
   autoprefixer = require("gulp-autoprefixer"),
