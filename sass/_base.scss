@@ -12,3 +12,35 @@ $light: #f1f1fa;
 $secondary: #dee2e6;
 $warning: #dfd446;
 
+h1 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.main,
+.page-content > div > div {
+  > h2 {
+    margin-top: 24px;
+    margin-bottom: 14px;
+    font-size: 22px;
+  }
+
+  > ul a {
+    color: $dark;
+    font-weight: 500;
+    opacity: 0.9;
+
+    &:hover {
+      transition: 0.2s;
+      color: $dark;
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+}
+
+// ul > li:not(:first-child) {
+//   margin-top: 4px;
+// }

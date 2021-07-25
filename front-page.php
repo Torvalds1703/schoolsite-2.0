@@ -41,11 +41,9 @@
           </div>
       </div>
     </div>
-    <div class="d-none d-lg-block col-3">
-      <div class="p-3 mt-1 border border-secondary">
+
       <?php get_sidebar(); ?>
-      </div> 
-    </div>
+      
   </div>
 </div>
 

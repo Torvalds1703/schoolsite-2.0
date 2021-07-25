@@ -1,9 +1,3 @@
-@import "base";
-@import "../node_modules/rfs/scss";
-@import "mixins";
-@import "typography";
-@import "widgets";
-
 // Override Bootstrap's Sass default variables
 //
 // Nearly all variables in Bootstrap are written with the `!default` flag.
@@ -27,9 +21,6 @@
 @import "../node_modules/bootstrap/scss/functions"; // Required
 @import "../node_modules/bootstrap/scss/variables"; // Required
 @import "../node_modules/bootstrap/scss/mixins"; // Required
-
-@import "components";
-@import "layout";
 
 //
 // Override Bootstrap here
@@ -88,3 +79,12 @@
 // .bi {
 //   fill: currentColor;
 // }
+
+@import "base";
+@import "../node_modules/rfs/scss";
+@import "mixins";
+@import "typography";
+@import "widgets";
+@import "components";
+@import "layout";
+

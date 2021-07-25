@@ -7,7 +7,7 @@ Template Name: Режим работы
 <?php get_header(); ?>
 
   <div class="row align-content-center">
-    <div class="col-12 col-lg-9 px-5">
+    <main class="col-12 col-lg-9 px-5 main">
       <?php get_template_part("includes/section", "pagecontent"); ?>
             <p>Понедельник, вторник, среда, четверг, пятница — с 07:00 до 20:00 <br>
             суббота — с 08:15 до 18:00 
@@ -45,13 +45,9 @@ Template Name: Режим работы
             </figure>
 
             <p> <u>Режим работы ГПД:</u> понедельник – пятница с 12.50 до 18.50</p>  
-    </div>
+    </main>
 
-    <div class="d-none d-lg-block col-3">
-      <div class="p-3 mt-1 border border-secondary">
-      <?php get_sidebar(); ?>
-      </div> 
-    </div>
+    <?php get_sidebar(); ?>
   </div>
 </div>
 

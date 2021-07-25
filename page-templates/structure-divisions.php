@@ -8,7 +8,7 @@ Template Name: Структурные подразделения
 
 
   <div class="row align-content-center">
-    <div class="col-12 col-lg-9 px-5">
+    <main class="col-12 col-lg-9 px-5 main">
       <?php get_template_part("includes/section", "pagecontent"); ?>
 
       <ol class="text-justify">
@@ -31,13 +31,9 @@ Template Name: Структурные подразделения
               );?>"">Положение об ОДОД</a></p>
           </li>
       </ol>
-    </div>
+      </main>
 
-    <div class="d-none d-lg-block col-3">
-      <div class="p-3 mt-1 border border-secondary">
-      <?php get_sidebar(); ?>
-      </div> 
-    </div>
+    <?php get_sidebar(); ?>
 
   </div>
 </div>

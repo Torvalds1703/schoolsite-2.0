@@ -8,7 +8,7 @@ Template Name: Документы
 
 
   <div class="row align-content-center">
-    <div class="col-12 col-lg-9 px-5">
+  <main class="col-12 col-lg-9 px-5 main">
     
 
     <?php get_template_part("includes/section", "pagecontent"); ?>
@@ -38,12 +38,8 @@ Template Name: Документы
       </table>
 
 
-    </div>
-    <div class="d-none d-lg-block col-3">
-      <div class="p-3 mt-1 border border-secondary">
-      <?php get_sidebar(); ?>
-      </div> 
-    </div>
+      </main>
+    <?php get_sidebar(); ?>
   </div>
 
 <?php get_footer();

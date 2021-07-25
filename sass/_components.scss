@@ -15,6 +15,7 @@
   position: relative;
   display: block;
   margin: 0;
+  hyphens: auto;
   padding: map-get($spacers, 5) map-get($spacers, 4) map-get($spacers, 3);
   color: $blockquote-small-color;
   font-size: $blockquote-font-size;
@@ -55,3 +56,6 @@
     }
   }
 }
+
+
+

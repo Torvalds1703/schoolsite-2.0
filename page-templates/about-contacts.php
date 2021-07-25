@@ -8,7 +8,7 @@ Template Name: Контакты
 
 
   <div class="row align-content-center">
-    <div class="col-12 col-lg-9 px-5">
+    <main class="col-12 col-lg-9 px-5 main">
       <?php get_template_part("includes/section", "pagecontent"); ?>
 
         <p>Контактный телефон: <a href="tel:+78124173427">(812) 417-34-27</a></p>
@@ -16,13 +16,9 @@ Template Name: Контакты
         <p> Адрес электронной почты: <a href = "mailto: it653@obr.gov.spb.ru">it653@obr.gov.spb.ru</a></p>                  
         <p>Адрес электронной почты дошкольного отделения: <a href = "mailto: dou653spb@obr.gov.spb.ru">dou653spb@obr.gov.spb.ru</a></p> 
 
-    </div>
+    </main>
 
-    <div class="d-none d-lg-block col-3">
-      <div class="p-3 mt-1 border border-secondary">
       <?php get_sidebar(); ?>
-      </div> 
-    </div>
 
   </div>
 </div>

@@ -7,7 +7,7 @@ Template Name: Аккордеон
 <?php get_header(); ?>
 
 <div class="row align-content-center">
-    <div class="col-12 col-lg-9 text-justify px-5">
+  <main class="col-12 col-lg-9 px-5 main">
       <?php get_template_part("includes/section", "pagecontent"); ?>
 
           <p>
@@ -48,12 +48,8 @@ Template Name: Аккордеон
 
      <p class="font-italic">Документы, регулирующие деятельность образовательного учреждения по ФГОС, находятся в разделе <a href="">Документы</a>.</p>
 
-    </div>
-    <div class="d-none d-lg-block col-3">
-      <div class="p-3 mt-1 border border-secondary">
-      <?php get_sidebar(); ?>
-      </div> 
-    </div>
+      </main>
+    <?php get_sidebar(); ?>
 
   </div>
 </div>

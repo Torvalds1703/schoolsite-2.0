@@ -1,11 +1,11 @@
-
+<div class="page-content">
     <?php if (has_post_thumbnail()): ?>
         <img src="<?php the_post_thumbnail_url(
           'blog-large'
         ); ?>" alt="" class="img-fluid mb-3 img-thumbnail">
     <?php endif; ?>
 
-  <h1 class="mb-4 mt-4 font-weight-bold page-heading"><?php the_title();?></h1> 
+  <h1><?php the_title();?></h1> 
 
     <div class="row">
       <div class="col">
@@ -21,4 +21,4 @@
        
        </div>
     </div>
-
+</div>

@@ -7,7 +7,7 @@ Template Name: Новые Сведения об ОО
 <?php get_header(); ?>
 
 <div class="row align-content-center">
-    <div class="col-12 col-lg-9 text-justify px-5">
+<main class="col-12 col-lg-9 px-5 main">
       <?php get_template_part("includes/section", "pagecontent"); ?>        
 
   <p>
@@ -492,12 +492,8 @@ Template Name: Новые Сведения об ОО
      <li>Приказ Рособрнадзора от 14.08.2020 № 831 «Об утверждении Требований к структуре официального сайта образовательной организации в информационно-телекоммуникационной сети "Интернет" и формату представления информации» </li>
      </ul>
 
-    </div>
-    <div class="d-none d-lg-block col-3">
-      <div class="p-3 mt-1 border border-secondary">
-      <?php get_sidebar(); ?>
-      </div> 
-    </div>
+    </main>
+    <?php get_sidebar(); ?>
   </div>
 
 </div>
