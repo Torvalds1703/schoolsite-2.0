@@ -21,7 +21,7 @@ Template Name: Коллектив
           <li>
               <a href="<?php echo site_url(
                "/about-us/obrazovatelnye-programmy"
-              ); ?>">Учителя средней школы
+              ); ?>">Учителя средней школыыыы
               </a>
           </li>
           <li>
