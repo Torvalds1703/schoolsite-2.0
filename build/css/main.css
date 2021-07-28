@@ -7587,6 +7587,10 @@ aside > li {
 }
 
 /* calendar widget */
+#block-3 {
+  margin-top: 20px;
+}
+
 #wp-calendar,
 #calendar-wrap {
   width: 100%;
@@ -7595,9 +7599,12 @@ aside > li {
 #wp-calendar caption {
   text-align: right;
   color: #333;
+  font-weight: bold;
   font-size: 12px;
   margin-top: 10px;
   margin-bottom: 15px;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 #wp-calendar thead {
@@ -7637,6 +7644,15 @@ aside > li {
   font-size: 10px;
   text-transform: uppercase;
   padding-top: 10px;
+}
+
+#wp-calendar td#today {
+  background-color: #aaa;
+  color: #fff;
+}
+
+nav.wp-calendar-nav {
+  display: none;
 }
 
 .hero-section {
@@ -7704,4 +7720,17 @@ body {
   background-color: darkcyan;
   height: 50px;
   margin-top: auto;
+}
+
+.aside__banner {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.aside__banner > img {
+  width: 100%;
+  height: 100%;
+}
+.aside__banner:not(:first-child) {
+  margin-top: 20px;
 }

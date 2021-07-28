@@ -19,7 +19,19 @@ body {
   margin-top: auto;
 }
 
-// .page-container {
-//   padding: 40px;
-// }
+.aside {
+  &__banner {
+    display: block;
+    width: 100%;
+    height: 100%;
 
+    > img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__banner:not(:first-child) {
+    margin-top: 20px;
+  }
+}
