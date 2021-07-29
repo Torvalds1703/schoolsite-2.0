@@ -112,6 +112,7 @@ add_theme_support("widgets");
 
 register_nav_menus([
   "top-menu" => "Top Menu Location",
+  "footer-menu" => "Footer Menu Location",
   "mobile-menu" => "Mobile Menu Location",
 ]);
 
