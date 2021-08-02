@@ -12,9 +12,6 @@
             <a href="#" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri('/images/banners/banner-first.png'); ?>" alt="">
             </a>
-            <a href="#" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-camping.png'); ?>" alt="">
-            </a>
 
             <a href="#" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri('/images/banners/banner-dining.png'); ?>" alt="">

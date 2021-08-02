@@ -11,7 +11,7 @@
             "menu_class" => "navbar-footer",
           ]); ?>
     <?php wp_footer(); ?>
-</div>
+  </div>
 </footer>
 </body>
 </html>
