@@ -1,7 +1,7 @@
 </div>
 <footer class="footer mt-4">
-  <div class="container">
-    <?php wp_nav_menu([
+
+<?php wp_nav_menu([
             "theme_location" => "footer-menu",
             "depth" => 2,
             "container" => "nav",
@@ -11,7 +11,7 @@
             "menu_class" => "navbar-footer",
           ]); ?>
     <?php wp_footer(); ?>
-  </div>
-</footer>
+
+  </footer>
 </body>
 </html>

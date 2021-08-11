@@ -7701,6 +7701,49 @@ nav.wp-calendar-nav {
   color: #6c757d;
 }
 
+.footer {
+  background-color: lightblue;
+  padding: 30px 39px;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer a {
+  color: black;
+}
+.footer .navbar-footer > ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.footer .navbar-footer > ul > .page_item > a {
+  font-size: 17px;
+  font-weight: 700;
+}
+.footer .navbar-footer > ul > .page_item {
+  margin-bottom: 20px;
+  flex-basis: 20%;
+  padding-right: 35px;
+}
+.footer .navbar-footer > ul > .page_item > .children {
+  padding-left: 0;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+.footer .navbar-footer > ul > .page_item > .children > .page_item {
+  font-size: 14px;
+  opacity: 0.5;
+  line-height: 18px;
+}
+.footer .navbar-footer > ul > .page_item > .children > .page_item:not(:first-child) {
+  margin-top: 12px;
+}
+.footer .navbar-footer > ul > .page_item > .children > .page_item:hover {
+  opacity: 1;
+  text-decoration: none !important;
+}
+
 body,
 html {
   height: 100%;
@@ -7714,10 +7757,6 @@ body {
 .main-content {
   padding: 2rem;
   height: 100%;
-}
-
-.footer {
-  background-color: lightblue;
 }
 
 .aside__banner {
