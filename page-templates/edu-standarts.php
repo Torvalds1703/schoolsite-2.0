@@ -11,9 +11,7 @@ Template Name: Образовательные стандарты
     <main class="col-12 col-lg-9 px-5 main">
       <?php get_template_part("includes/section", "pagecontent"); ?>
     </main>
-
       <?php get_sidebar(); ?>
-
   </div>
 </div>
 
