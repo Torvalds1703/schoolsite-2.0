@@ -26,7 +26,7 @@ aside > li {
   caption {
     text-align: right;
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
     color: #333;
     font-weight: bold;
     font-size: 12px;
@@ -70,8 +70,8 @@ aside > li {
     background-color: #aaa;
     color: #fff;
   }
+}
 
-  nav.wp-calendar-nav {
-    display: none;
-  }
+nav.wp-calendar-nav {
+  display: none;
 }
