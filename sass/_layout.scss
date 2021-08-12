@@ -17,6 +17,15 @@ body {
   margin-top: 24px;
 }
 
+figure.wp-block-image {
+  > img {
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+    display: block;
+  }
+}
+
 .aside {
   &__banner {
     display: block;
