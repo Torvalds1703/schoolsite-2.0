@@ -7582,7 +7582,8 @@ aside > li {
   list-style-type: none;
 }
 
-.bvi-link-widget {
+widget_bvi_widget {
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
