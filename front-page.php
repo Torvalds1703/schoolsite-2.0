@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container-fluid mt-3">
+<div class="container-fluid">
   <div class="row align-content-center">
     <div class="col-12 col-lg-9">
       <div class="row flex-column flex-lg-row text-left align-items-center">
