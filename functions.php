@@ -1,6 +1,6 @@
 <?php
 
-// add_filter('jpeg_quality', function($arg){return 100;});
+add_filter('jpeg_quality', function($arg){return 80;});
 
 // Setup Carbon Fields
 
