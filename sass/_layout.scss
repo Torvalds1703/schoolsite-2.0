@@ -8,13 +8,16 @@ body {
   position: relative;
 }
 
+.page-container {
+  margin-top: 24px;
+}
+
 .main-content {
   padding: 2rem;
   height: 100%;
 }
 
-.page-container {
-  margin-top: 24px;
+.sidebar {
 }
 
 figure.wp-block-image {

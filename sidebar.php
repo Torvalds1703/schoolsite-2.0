@@ -1,4 +1,4 @@
-<div class="d-none d-lg-block col-3">
+<div class="sidebar d-none d-lg-block col-3">
       <div>
       <aside class="aside">
 
