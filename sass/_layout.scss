@@ -24,8 +24,9 @@ figure.wp-block-image {
   > img {
     margin: 0 auto;
     height: auto;
-    max-width: 100%;
+    // max-width: 100%;
     display: block;
+    width: 100%;
   }
 }
 
