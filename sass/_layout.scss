@@ -18,6 +18,11 @@ body {
 }
 
 .sidebar {
+  margin-top: 56px;
+}
+
+home .sidebar {
+  margin-top: 0;
 }
 
 figure.wp-block-image {
