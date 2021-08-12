@@ -7768,6 +7768,23 @@ body {
   width: 100%;
   height: 100%;
 }
+.aside__banner--covid > div {
+  background-color: #eeecec;
+  font-size: 14px;
+  color: black;
+  padding: 0 10px 5px;
+  line-height: 170%;
+}
+.aside__banner--covid > div span {
+  display: inline-block;
+  background-image: url("../../images/icons/covid-icon.svg");
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 11px;
+  background-size: 30px;
+  margin-right: 3px;
+}
 .aside__banner:not(:first-child) {
   margin-top: 20px;
 }
