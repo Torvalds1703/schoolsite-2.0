@@ -7698,7 +7698,7 @@ nav.wp-calendar-nav {
 
 .footer {
   background-color: lightblue;
-  padding: 30px 39px;
+  padding: 30px 39px 30px 0;
 }
 .footer ul {
   list-style-type: none;
@@ -7708,7 +7708,6 @@ nav.wp-calendar-nav {
 }
 .footer .navbar-footer > ul {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   padding-left: 0;
 }
@@ -7717,9 +7716,10 @@ nav.wp-calendar-nav {
   font-weight: 700;
 }
 .footer .navbar-footer > ul > .page_item {
+  flex-grow: 1;
   margin-bottom: 20px;
   flex-basis: 20%;
-  padding-right: 35px;
+  padding-left: 39px;
 }
 .footer .navbar-footer > ul > .page_item > .children {
   padding-left: 0;

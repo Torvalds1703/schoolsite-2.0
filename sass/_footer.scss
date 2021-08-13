@@ -1,6 +1,6 @@
 .footer {
   background-color: lightblue;
-  padding: 30px 39px;
+  padding: 30px 39px 30px 0;
 
   ul {
     list-style-type: none;
@@ -12,7 +12,6 @@
 
   .navbar-footer > ul {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding-left: 0;
   }
@@ -23,9 +22,10 @@
   }
 
   .navbar-footer > ul > .page_item {
+    flex-grow: 1;
     margin-bottom: 20px;
     flex-basis: 20%;
-    padding-right: 35px;
+    padding-left: 39px;
   }
 
   .navbar-footer > ul > .page_item > .children {
