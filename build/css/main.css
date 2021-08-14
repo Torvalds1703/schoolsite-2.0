@@ -7553,6 +7553,18 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .main > h2,
 .page-content > div > div > h2 {
   margin-top: 24px;
@@ -7771,6 +7783,10 @@ figure.wp-block-image > img {
   height: auto;
   display: block;
   width: 100%;
+}
+
+figure.wp-block-table {
+  margin-top: 24px;
 }
 
 .aside__banner {

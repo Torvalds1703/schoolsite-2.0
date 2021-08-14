@@ -22,19 +22,15 @@
 @import "../node_modules/bootstrap/scss/variables"; // Required
 @import "../node_modules/bootstrap/scss/mixins"; // Required
 
-//
 // Override Bootstrap here
 //
-
 //Toggle global options
 // $enable-gradients: true;
 // $enable-shadows: true;
-
 //Customize some defaults
 // $body-color: $purple;
 // $body-bg: #C7CDFC;
 // $border-radius: 0.4rem;
-
 // @import "bootstrap/scss/root";
 @import "../node_modules/bootstrap/scss/reboot"; // Required
 @import "../node_modules/bootstrap/scss/type";
