@@ -30,27 +30,27 @@ h3 {
   font-weight: bold;
 }
 
-.main,
-.page-content > div > div {
-  > h2 {
-    margin-top: 24px;
-    margin-bottom: 14px;
-    font-size: 22px;
-  }
+// .main,
+// .page-content > div > div {
+//   > h2 {
+//     margin-top: 24px;
+//     margin-bottom: 14px;
+//     font-size: 22px;
+//   }
 
-  > ul a {
-    color: $dark;
-    font-weight: 500;
-    opacity: 0.9;
+//   > ul a {
+//     color: $dark;
+//     font-weight: 500;
+//     opacity: 0.9;
 
-    &:hover {
-      transition: 0.2s;
-      color: $dark;
-      opacity: 1;
-      text-decoration: underline;
-    }
-  }
-}
+//     &:hover {
+//       transition: 0.2s;
+//       color: $dark;
+//       opacity: 1;
+//       text-decoration: underline;
+//     }
+//   }
+// }
 
 // ul > li:not(:first-child) {
 //   margin-top: 4px;

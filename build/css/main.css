@@ -7565,26 +7565,6 @@ h3 {
   font-weight: bold;
 }
 
-.main > h2,
-.page-content > div > div > h2 {
-  margin-top: 24px;
-  margin-bottom: 14px;
-  font-size: 22px;
-}
-.main > ul a,
-.page-content > div > div > ul a {
-  color: #343a40;
-  font-weight: 500;
-  opacity: 0.9;
-}
-.main > ul a:hover,
-.page-content > div > div > ul a:hover {
-  transition: 0.2s;
-  color: #343a40;
-  opacity: 1;
-  text-decoration: underline;
-}
-
 .title {
   font-size: 1.2rem;
 }
