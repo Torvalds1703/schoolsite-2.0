@@ -7566,11 +7566,7 @@ h3 {
 }
 
 a {
-  border-bottom: 1px solid var(--color-active-blue-low-opacity);
   color: #194f98;
-}
-a:hover {
-  border-bottom: 1px solid currentColor;
 }
 
 .title {
