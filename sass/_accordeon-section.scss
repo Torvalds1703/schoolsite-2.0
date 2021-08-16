@@ -7,7 +7,9 @@
 }
 
 .accordeon-item {
-  background-color: var(--color-base-gray);
+  background-color: rgba(0, 0, 0, 0.05);
+  // background-color: #a78989;
+  // border: 2px solid var(--color-text-gray);
   border-radius: 10px;
   position: relative;
   transition: box-shadow 0.3s;
@@ -20,7 +22,7 @@
   }
 
   &:hover {
-    box-shadow: 0 0 10px rgba(25, 79, 152, 0.25);
+    // box-shadow: 0 0 10px rgba(25, 79, 152, 0.25);
   }
 
   &__card {
@@ -66,9 +68,8 @@
 
   &__arrow {
     align-items: center;
-    background-color: var(--color-base-gray);
-    border: 1px solid var(--color-active-element);
-    border-color: var(--color-active-element);
+    background-color: var(--color-active-element);
+    border: 1px solid var(--color-base-gray);
     border-radius: 50%;
     display: flex;
     height: 60px;

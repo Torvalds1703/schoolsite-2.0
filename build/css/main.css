@@ -7696,18 +7696,12 @@ nav.wp-calendar-nav {
 }
 
 .slider_instance {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
-}
-
-main__director-photo {
-  width: 80%;
-  margin: 0 auto;
-  display: block;
 }
 
 .wp-block-image {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -7748,8 +7742,9 @@ main__director-photo {
 }
 
 .footer {
-  background-color: lightblue;
-  padding: 30px 39px 30px 0;
+  margin-top: 75px;
+  background-color: #f7f4e4;
+  padding: 30px 39px 0 0;
 }
 .footer ul {
   list-style-type: none;
@@ -7763,8 +7758,12 @@ main__director-photo {
   padding-left: 0;
 }
 .footer .navbar-footer > ul > .page_item > a {
-  font-size: 17px;
-  font-weight: 700;
+  font-size: 15px;
+  opacity: 0.6;
+  font-weight: 600;
+}
+.footer .navbar-footer > ul > .page_item > a:hover {
+  opacity: 1;
 }
 .footer .navbar-footer > ul > .page_item {
   flex-grow: 1;
@@ -7866,16 +7865,13 @@ figure.wp-block-table {
 }
 
 .accordeon-item {
-  background-color: var(--color-base-gray);
+  background-color: rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   position: relative;
   transition: box-shadow 0.3s;
 }
 .accordeon-item--active .accordeon-item__arrow {
   transform: rotate(90deg);
-}
-.accordeon-item:hover {
-  box-shadow: 0 0 10px rgba(25, 79, 152, 0.25);
 }
 .accordeon-item__card {
   cursor: pointer;
@@ -7912,9 +7908,8 @@ figure.wp-block-table {
 }
 .accordeon-item__arrow {
   align-items: center;
-  background-color: var(--color-base-gray);
-  border: 1px solid var(--color-active-element);
-  border-color: var(--color-active-element);
+  background-color: var(--color-active-element);
+  border: 1px solid var(--color-base-gray);
   border-radius: 50%;
   display: flex;
   height: 60px;
