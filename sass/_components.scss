@@ -9,6 +9,31 @@
   width: 40%;
 }
 
+.dropdown-menu {
+  max-height: 140px;
+  overflow-y: scroll;
+  padding-top: 0;
+}
+
+.slider_instance {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main__director-photo {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.wp-block-image {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar-nav {
+}
+
 // citation
 .citation {
   position: relative;

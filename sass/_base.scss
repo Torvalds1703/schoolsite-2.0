@@ -6,6 +6,26 @@
 //   --color-green: #a8d67c;
 // }
 
+:root {
+  --color-white: #fff;
+  --color-black: #212121;
+  // --color-base-gray: #ededed;
+  --color-base-gray: rgba(0, 0, 0, 0.03);
+  --color-text-gray: rgba(143, 143, 143, 1);
+  --color-text-gray-dimmed: rgba(143, 143, 143, 0.5);
+  --color-active-blue: rgba(25, 79, 152, 1);
+  --color-active-blue-low-opacity: rgba(25, 79, 152, 0.3);
+  --color-active-element: #e6ebf1;
+  --color-deep-blue: rgba(0, 46, 109, 1);
+  --color-header-top: #0b264a;
+  --color-footer-bg: #3e3e3e;
+  --color-red: #cb5f71;
+  --color-red-bright: #f21616;
+  --color-bagination-item: #e1e6ec;
+  --color-social-link: rgba(0, 0, 0, 0.2);
+  --color-link-active: #2787f5;
+}
+
 // color variables
 
 $light: #f1f1fa;

@@ -3,7 +3,7 @@
 <div class="container-fluid">
   <div class="row align-content-center">
     <div class="col-12 col-lg-9">
-      <div class="row flex-column flex-lg-row text-left align-items-center">
+      <div class="row flex-column flex-lg-row">
         <div class="col-12 order-2 col-xl-6">
           <blockquote class="citation citation-success">
             <div class="citation-body">
@@ -20,7 +20,7 @@
           <img
             src="<?php echo get_theme_file_uri('/images/director.jpg'); ?>"
             alt="Фотография директора школы"
-            class="img-fluid rounded"
+            class="img-fluid rounded main__director-photo"
           />
         </div>
         </div>

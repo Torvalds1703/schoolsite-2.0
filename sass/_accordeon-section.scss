@@ -1,0 +1,203 @@
+.accordeon-section {
+  margin-top: 23px;
+
+  > div:not(:first-child) {
+    margin-top: 10px;
+  }
+}
+
+.accordeon-item {
+  background-color: var(--color-base-gray);
+  border-radius: 10px;
+  position: relative;
+  transition: box-shadow 0.3s;
+
+  &--active {
+    .accordeon-item__arrow {
+      // background-color: var(--color-white);
+      transform: rotate(90deg);
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(25, 79, 152, 0.25);
+  }
+
+  &__card {
+    cursor: pointer;
+    padding: 28px 110px 24px;
+
+    &:hover .accordeon-item__arrow {
+      background-color: var(--color-white);
+    }
+  }
+
+  &__icon {
+    display: inline;
+    left: 50px;
+    position: absolute;
+    top: 28px;
+  }
+
+  &--noicon > .accordeon-item__card {
+    padding-left: 54px;
+
+    &::before {
+      content: "";
+    }
+  }
+
+  &__heading {
+    font-size: 20px;
+    line-height: 130%;
+    max-width: 66.7%;
+  }
+
+  &__subheading {
+    color: var(--color-text-gray);
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 8px;
+  }
+
+  &__close {
+    display: none;
+  }
+
+  &__arrow {
+    align-items: center;
+    background-color: var(--color-base-gray);
+    border: 1px solid var(--color-active-element);
+    border-color: var(--color-active-element);
+    border-radius: 50%;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 60px;
+  }
+
+  &__collapsing {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+
+    > ul {
+      padding-left: 0;
+      list-style-type: none;
+      margin-bottom: 0;
+    }
+
+    li {
+      font-size: 18px;
+      line-height: 120%;
+      padding: 25px 109px 25px 110px;
+      position: relative;
+      transition: background-color 0.3s;
+    }
+
+    a {
+      color: var(--color-active-blue);
+
+      &::before {
+        content: url("../../images/icons/bullet-blue.svg");
+        left: 83px;
+        position: absolute;
+        top: 22px;
+      }
+
+      &::after {
+        @include link-expanded;
+      }
+    }
+
+    li.item-inactive {
+      > a {
+        color: var(--color-black);
+        pointer-events: none;
+        cursor: pointer;
+      }
+
+      > a::before {
+        content: url("../../images/icons/bullet-black.svg");
+      }
+    }
+
+    li:hover {
+      background-color: var(--color-active-element);
+    }
+
+    li:not(:last-of-type)::after {
+      background: var(--color-active-element);
+      bottom: 0;
+      content: "";
+      height: 1px;
+      left: 54px;
+      position: absolute;
+      right: 54px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    &__card {
+      padding: 24px 25px 19px 49px;
+    }
+
+    &__arrow {
+      display: none;
+    }
+
+    &__icon {
+      left: 1px;
+      top: 8px;
+
+      > img {
+        height: 58px;
+        transform: scale(0.35);
+      }
+    }
+
+    &__heading {
+      font-size: 14px;
+      line-height: 150%;
+      max-width: 100%;
+    }
+
+    &__subheading {
+      color: var(--color-active-blue);
+      font-size: 14px;
+    }
+
+    &__amount,
+    &__close {
+      border-bottom: 1px dotted var(--color-active-blue);
+    }
+
+    &--active .accordeon-item__amount {
+      display: none;
+    }
+
+    &--active .accordeon-item__close {
+      display: inline;
+    }
+
+    &__collapsing li {
+      font-size: 14px;
+      line-height: 150%;
+      padding: 16px 16px 16px 49px;
+    }
+
+    &__collapsing li:not(:last-of-type)::after {
+      left: 49px;
+      right: 16px;
+    }
+
+    &__collapsing a::before {
+      left: 23px;
+      top: 16px;
+    }
+  }
+}
