@@ -7696,18 +7696,18 @@ nav.wp-calendar-nav {
 }
 
 .slider_instance {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
 main__director-photo {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   display: block;
 }
 
 .wp-block-image {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -7821,7 +7821,7 @@ figure.wp-block-image > img {
   margin: 0 auto;
   height: auto;
   display: block;
-  width: 100%;
+  width: 80%;
 }
 
 figure.wp-block-table {
