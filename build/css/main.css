@@ -7690,7 +7690,7 @@ nav.wp-calendar-nav {
 }
 
 .dropdown-menu {
-  max-height: 140px;
+  max-height: 390px;
   overflow-y: scroll;
   padding-top: 0;
 }
