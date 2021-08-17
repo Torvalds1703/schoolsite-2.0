@@ -7704,11 +7704,6 @@ nav.wp-calendar-nav {
   height: auto;
 }
 
-.wp-block-image {
-  width: 95%;
-  margin: 0 auto;
-}
-
 .citation {
   position: relative;
   display: block;
@@ -7820,11 +7815,11 @@ body {
   margin-top: 0;
 }
 
-figure.wp-block-image > img {
+.wp-block-image > img {
   margin: 0 auto;
   height: auto;
   display: block;
-  width: 80%;
+  width: 90%;
 }
 
 figure.wp-block-table {
