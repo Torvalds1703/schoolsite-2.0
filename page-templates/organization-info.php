@@ -499,19 +499,19 @@ Template Name: Новые Сведения об ОО
         <div class="accordeon-item__collapsing">
           <ul>
             <li>
-            <a href="<?php echo site_url("/about-us/obshhie-svedeniya/"); ?>">Полное и сокращенное наименование организации, дата создания, учредители</a>
+            <a target="_blank" href="<?php echo site_url("/about-us/obshhie-svedeniya/"); ?>">Полное и сокращенное наименование организации, дата создания, учредители</a>
             </li>
             <li>
-            <a href="<?php echo site_url("/kontakty/"); ?>">Место нахождения, контактные телефоны, адреса электронной почты</a>
+            <a target="_blank" href="<?php echo site_url("/kontakty/"); ?>">Место нахождения, контактные телефоны, адреса электронной почты</a>
             </li>
             <li>
-            <a href="<?php echo site_url("/usloviya/rezhim-raboty/"); ?>">Режим и график работы</a>
+            <a target="_blank" href="<?php echo site_url("/usloviya/rezhim-raboty/"); ?>">Режим и график работы</a>
             </li>
             <li>
-            <a href="<?php echo site_url("/about-us/obshhie-svedeniya/"); ?>">Места осуществления образовательной деятельности</a>
+            <a target="_blank" href="<?php echo site_url("/about-us/obshhie-svedeniya/"); ?>">Места осуществления образовательной деятельности</a>
             </li>
             <li class="item-inactive">
-              <a href="#">Представительства и филиалы (отсутствуют)</a>
+              <a target="_blank" href="#">Представительства и филиалы (отсутствуют)</a>
             </li>
           </ul>
         </div>
@@ -532,17 +532,17 @@ Template Name: Новые Сведения об ОО
         <div class="accordeon-item__collapsing">
           <ul>
               <li>
-                <a href="<?php echo site_url(
+                <a target="_blank" href="<?php echo site_url(
                 "/about-us/struktura-i-organy-upravleniya-organizacziej/"
                 ); ?>">Структура образовательной организации</a>
               </li>
               <li>
-                <a href="<?php echo site_url(
+                <a target="_blank" href="<?php echo site_url(
                 "/about-us/strukturnye-podrazdeleniya/"
                 ); ?>">Структурные подразделения</a>
               </li>
               <li>
-                <a href="<?php echo site_url(
+                <a target="_blank" href="<?php echo site_url(
                 "/about-us/struktura-i-organy-upravleniya-organizacziej/"
                 ); ?>">Органы управления образовательной организацией</a>
               </li>
@@ -706,22 +706,20 @@ Template Name: Новые Сведения об ОО
           <ul>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/kollektiv/rabotniki-obrazovatelnoj-organizaczii/"
+                "/kontakty/rukovodstvo-obrazovatelnoj-organizaczii/"
                 ); ?>">Руководитель образовательной организации</a>
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/kollektiv/rabotniki-obrazovatelnoj-organizaczii/"
+                "/kontakty/speczialisty-obrazovatelnoj-organizaczii/"
                 ); ?>">Заместители руководителя</a>
             </li>
             <li>
-            <a target="_blank" href="<?php echo site_url(
-                "/kollektiv/rabotniki-obrazovatelnoj-organizaczii/"
-                ); ?>">Руководители филиалов, представительств</a>
+            <a class="item-inactive" target="_blank">Руководители филиалов, представительств (отсутствуют)</a>
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/kollektiv/rabotniki-obrazovatelnoj-organizaczii/"
+                "/kollektiv/rabotniki-obrazovatelnoj-organizaczii-2/"
                 ); ?>">Персональный состав педагогических работников</a>
             </li>
           </ul>
