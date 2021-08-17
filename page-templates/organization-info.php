@@ -714,8 +714,8 @@ Template Name: Новые Сведения об ОО
                 "/kontakty/speczialisty-obrazovatelnoj-organizaczii/"
                 ); ?>">Заместители руководителя</a>
             </li>
-            <li>
-            <a class="item-inactive" target="_blank">Руководители филиалов, представительств (отсутствуют)</a>
+            <li class="item-inactive">
+            <a target="_blank">Руководители филиалов, представительств (отсутствуют)</a>
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
