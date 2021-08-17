@@ -7701,7 +7701,7 @@ nav.wp-calendar-nav {
 }
 
 .wp-block-image {
-  width: 85%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -7760,7 +7760,7 @@ nav.wp-calendar-nav {
 .footer .navbar-footer > ul > .page_item > a {
   font-size: 15px;
   opacity: 0.6;
-  font-weight: 600;
+  font-weight: 500;
 }
 .footer .navbar-footer > ul > .page_item > a:hover {
   opacity: 1;
