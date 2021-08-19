@@ -945,7 +945,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Беспрепятственный доступ в здание</a>
             </li>
             <li>
