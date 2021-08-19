@@ -1,16 +1,5 @@
 </div>
   <footer class="footer">
-    <!-- <?php wp_nav_menu([
-                "theme_location" => "footer-menu",
-                "depth" => 1,
-                "container" => "nav",
-                "container_class" =>
-                "collapse navbar-collapse",
-                "container_id" => "bs-example-navbar-collapse-1",
-                "menu_class" => "navbar-footer",
-              ]); ?>
-    <?php wp_footer(); ?> -->
-
     <div class="footer__bottom footer-bottom">
                     <section>
                         <ul class="footer-bottom__items">
@@ -75,8 +64,8 @@
                                 </ul>
                             </li>
                         </ul>
-                    </section>
-              </div>
+                </section>
+        </div>
   </footer>
 </body>
 </html>
