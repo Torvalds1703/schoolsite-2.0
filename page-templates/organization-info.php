@@ -909,7 +909,7 @@ Template Name: Новые Сведения об ОО
       <div class="accordeon-item__card">
         <p class="accordeon-item__heading">Доступная среда</p>
         <p class="accordeon-item__subheading">
-          <span class="accordeon-item__amount">Ссылок: 3</span>
+          <span class="accordeon-item__amount">Ссылок: 11</span>
           <span class="accordeon-item__close">Свернуть</span>
         </p>
           <div class="accordeon-item__arrow">
@@ -944,11 +944,10 @@ Template Name: Новые Сведения об ОО
                 ); ?>">Специально оборудованные средства обучения и воспитания</a>
             </li>
             <li>
-              <a target="_blank" href="<?php echo site_url(
+            <a target="_blank" href="<?php echo site_url(
                 "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Беспрепятственный доступ в здание</a>
             </li>
-            <li>
              <a target="_blank" href="<?php echo site_url(
                 "/usloviya-pitaniya-obuchayushhihsya/"
                 ); ?>">Специальные условия питания</a>
