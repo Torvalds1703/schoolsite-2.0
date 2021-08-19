@@ -824,7 +824,6 @@ Template Name: Новые Сведения об ОО
         </div>
         <div class="accordeon-item__collapsing">
           <ul>
-          finansirovanie/platnye-obrazovatelnye-uslugi/
             <li>
             <a target="_blank" href="<?php echo site_url(
                 "/finansirovanie/platnye-obrazovatelnye-uslugi/"
