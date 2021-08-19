@@ -944,10 +944,11 @@ Template Name: Новые Сведения об ОО
                 ); ?>">Специально оборудованные средства обучения и воспитания</a>
             </li>
             <li>
-            <a target="_blank" href="<?php echo site_url(
+              <a target="_blank" href="<?php echo site_url(
                 "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Беспрепятственный доступ в здание</a>
             </li>
+            <li>
              <a target="_blank" href="<?php echo site_url(
                 "/usloviya-pitaniya-obuchayushhihsya/"
                 ); ?>">Специальные условия питания</a>
