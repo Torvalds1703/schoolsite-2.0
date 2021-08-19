@@ -7855,6 +7855,7 @@ nav.wp-calendar-nav {
 }
 @media (max-width: 750px) {
   .footer-bottom {
+    padding-left: 25px;
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
@@ -7878,7 +7879,7 @@ nav.wp-calendar-nav {
     flex-basis: unset;
     left: 130px;
     position: absolute;
-    max-width: 90%;
+    max-width: 400px;
     top: 0;
   }
   .footer-bottom__organization > p {
@@ -7902,10 +7903,19 @@ nav.wp-calendar-nav {
 }
 @media (max-width: 400px) {
   .footer-bottom__items {
-    padding-left: 25px;
+    padding-left: 20px;
+  }
+  .footer-bottom__logo {
+    margin-top: 30px !important;
   }
   .footer-bottom__address {
     margin-top: 80px !important;
+  }
+  .footer-bottom__organization {
+    left: 110px;
+  }
+  .footer-bottom__organization > p {
+    padding-right: 20px;
   }
 }
 

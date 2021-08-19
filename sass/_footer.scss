@@ -140,6 +140,7 @@
   }
 
   @media (max-width: 750px) {
+    padding-left: 25px;
     height: max-content;
     padding: 0 0 24px;
     position: relative;
@@ -162,7 +163,7 @@
       flex-basis: unset;
       left: 130px;
       position: absolute;
-      max-width: 90%;
+      max-width: 400px;
       top: 0;
 
       > p {
@@ -192,11 +193,23 @@
 
   @media (max-width: 400px) {
     &__items {
-      padding-left: 25px;
+      padding-left: 20px;
+    }
+
+    &__logo {
+      margin-top: 30px !important;
     }
 
     &__address {
       margin-top: 80px !important;
+    }
+
+    &__organization {
+      left: 110px;
+
+      > p {
+        padding-right: 20px;
+      }
     }
   }
 }
