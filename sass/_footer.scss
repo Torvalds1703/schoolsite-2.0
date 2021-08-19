@@ -78,6 +78,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-left: 30px;
 
     > li {
       padding: 0 1rem;
@@ -140,7 +141,6 @@
   }
 
   @media (max-width: 750px) {
-    padding-left: 25px;
     height: max-content;
     padding: 0 0 24px;
     position: relative;
@@ -172,7 +172,7 @@
     }
 
     &__address {
-      margin-top: 65px !important;
+      margin-top: 45px !important;
       max-width: 90%;
     }
 
@@ -201,7 +201,7 @@
     }
 
     &__address {
-      margin-top: 80px !important;
+      margin-top: 65px !important;
     }
 
     &__organization {
