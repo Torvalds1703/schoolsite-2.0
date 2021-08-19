@@ -1,57 +1,202 @@
 .footer {
-  margin-top: 75px;
-  background-color: #f7f4e4;
-  padding: 30px 39px 0 0;
+  margin-top: 125px;
 
-  ul {
+  &__bottom {
+    background-color: var(--color-footer-bg);
+    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+
+    > div {
+      display: flex;
+    }
+
+    a {
+      color: var(--color-white);
+    }
+  }
+
+  .socials {
+    ul {
+      align-items: space-between;
+      display: flex;
+      flex-wrap: wrap;
+      height: 100%;
+      justify-content: flex-end;
+      padding-left: 0;
+    }
+
+    li {
+      background-color: var(--color-active-blue);
+      border-radius: 50%;
+      display: inline-block;
+      height: 32px;
+      position: relative;
+      width: 32px;
+
+      &:not(:first-child) {
+        margin-left: 16px;
+      }
+
+      a::after {
+        @include link-expanded;
+      }
+
+      &:hover {
+        background-color: var(--color-link-active);
+      }
+    }
+
+    &--footer {
+      li {
+        background-color: var(--color-text-gray-dimmed);
+
+        &:hover {
+          background-color: var(--color-text-gray);
+        }
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  * {
     list-style-type: none;
   }
+  color: var(--color-white);
+  font-size: 14px;
+  line-height: 18px;
 
-  a {
-    color: black;
-  }
-
-  .navbar-footer > ul {
+  > div {
     display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
   }
 
-  .navbar-footer > ul > .page_item > a {
-    font-size: 15px;
-    opacity: 0.6;
-    font-weight: 500;
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 
-    &:hover {
-      opacity: 1;
+    > li {
+      padding: 0 1rem;
     }
   }
 
-  .navbar-footer > ul > .page_item {
-    flex-grow: 1;
-    margin-bottom: 20px;
-    flex-basis: 20%;
-    padding-left: 39px;
+  &__organization {
+    max-width: 40%;
+
+    > *:last-child {
+      color: var(--color-text-gray);
+      margin-top: 0.8rem;
+    }
   }
 
-  .navbar-footer > ul > .page_item > .children {
-    padding-left: 0;
-    margin-top: 26px;
-    margin-bottom: 26px;
-
-    > .page_item {
-      font-size: 14px;
-      opacity: 0.5;
-      line-height: 18px;
+  &__address {
+    > *:not(:first-child) {
+      color: var(--color-text-gray);
+      margin-top: 0.8rem;
     }
 
-    > .page_item:not(:first-child) {
-      margin-top: 12px;
+    > * {
+      max-width: 80%;
+    }
+  }
+
+  &__contacts {
+    min-width: 200px;
+
+    > *:not(:first-child) {
+      margin-top: 0.8rem;
     }
 
-    > .page_item:hover {
-      opacity: 1;
-      text-decoration: none !important;
+    > p {
+      white-space: nowrap;
+    }
+  }
+
+  .copyrights {
+    > ul {
+      display: flex;
+    }
+
+    &__item {
+      color: var(--color-text-white);
+      opacity: 20%;
+
+      &:not(:first-child) {
+        padding-left: 10%;
+      }
+
+      &:last-of-type {
+        margin-left: auto;
+      }
+
+      &:hover {
+        opacity: 60%;
+      }
+    }
+  }
+
+  @media (max-width: 750px) {
+    height: max-content;
+    padding: 0 0 24px;
+    position: relative;
+
+    &__items {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    &__items > li {
+      margin-top: 24px;
+      padding: 0;
+    }
+
+    &__logo {
+      width: max-content;
+    }
+
+    &__organization {
+      flex-basis: unset;
+      left: 130px;
+      position: absolute;
+      max-width: 90%;
+      top: 0;
+
+      > p {
+        padding-right: 35px;
+      }
+    }
+
+    &__address {
+      margin-top: 65px !important;
+      max-width: 90%;
+    }
+
+    &__socials > ul {
+      justify-content: flex-start !important;
+    }
+
+    .copyrights > ul {
+      flex-direction: column;
+    }
+
+    .copyrights > ul > * {
+      margin: 0 !important;
+      margin-top: 24px !important;
+      padding: 0 !important;
+    }
+  }
+
+  @media (max-width: 400px) {
+    &__items {
+      padding-left: 25px;
+    }
+
+    &__address {
+      margin-top: 80px !important;
     }
   }
 }
