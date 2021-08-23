@@ -1,8 +1,9 @@
 <div class="sidebar d-none d-lg-block col-3">
       <div>
       <aside class="aside">
-
-             <a href="http://publication.pravo.gov.ru/Document/View/0001202007030021" class="aside__banner--covid">
+             <a href="<?php echo site_url(
+                "/info-covid-19/"
+                ); ?>" class="aside__banner--covid">
                   <div><span></span>Информация для родителей (законных представителей) о режиме функционирования ОУ в условиях распространения COVID-19</div>
             </a>
 
