@@ -7704,6 +7704,11 @@ nav.wp-calendar-nav {
   height: auto;
 }
 
+.navbar-nav {
+  justify-content: center;
+  align-items: center;
+}
+
 .citation {
   position: relative;
   display: block;
