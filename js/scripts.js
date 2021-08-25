@@ -3,7 +3,6 @@ import "bootstrap/js/dist/dropdown";
 import "bootstrap/js/dist/collapse";
 
 window.onload = function onLoad() {
-
   if (document.querySelector(".accordeon-section") !== null) {
     const accordionItems = document.querySelectorAll(".accordeon-item__card");
 
@@ -44,5 +43,12 @@ window.onload = function onLoad() {
         anchoredCollapse.style.maxHeight = anchoredCollapse.scrollHeight + "px";
       }
     }
+  }
+
+  if (document.querySelector(".dropdown-menu") !== null) {
+    const dropdowns = document.querySelectorAll(".dropdown-menu");
+    [...dropdowns].forEach((dd) => {
+      dd.classList.add("dropdown-menu-right");
+    });
   }
 };
