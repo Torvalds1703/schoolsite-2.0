@@ -3,7 +3,6 @@ import "bootstrap/js/dist/dropdown";
 import "bootstrap/js/dist/collapse";
 
 window.onload = function onLoad() {
-  // Раскрывашки Услуг + Услуг партнёров
 
   if (document.querySelector(".accordeon-section") !== null) {
     const accordionItems = document.querySelectorAll(".accordeon-item__card");

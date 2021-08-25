@@ -21,7 +21,6 @@ gulp.task("styles", function () {
       // .pipe(rename({ suffix: ".min" }))
       // .pipe(cleanCSS()) // минимизируем CSS
       // .pipe(sourcemaps.write()) // записываем sourcemap
-      // .pipe(gulp.dest("./build/css"))
       .pipe(livereload())
   );
 });
