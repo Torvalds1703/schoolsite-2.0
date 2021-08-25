@@ -11,7 +11,7 @@
 
 .dropdown-menu {
   max-height: 292px;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding-top: 0;
 }
 
@@ -34,7 +34,10 @@
 
 .navbar-nav {
   justify-content: center;
-  align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
 }
 
 // citation

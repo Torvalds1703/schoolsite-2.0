@@ -45,10 +45,16 @@ window.onload = function onLoad() {
     }
   }
 
-  if (document.querySelector(".dropdown-menu") !== null) {
-    const dropdowns = document.querySelectorAll(".dropdown-menu");
-    [...dropdowns].forEach((dd) => {
-      dd.classList.add("dropdown-menu-right");
+  if (document.querySelector("#menu-site-menu") !== null) {
+    const menuContainer = document.querySelector("#menu-site-menu");
+    const containerWidth = menuContainer.offsetWidth;
+    const menuItems = document.querySelectorAll(".menu-item-has-children");
+
+    [...menuItems].forEach((item) => {
+      if (item.offsetLeft > containerWidth / 2) {
+        const dropdown = item.querySelector(".dropdown-menu");
+        dropdown.classList.add("dropdown-menu-right");
+      }
     });
   }
 };

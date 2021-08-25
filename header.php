@@ -8,6 +8,9 @@
   content="Сайт СОШ № 653
         Калининского района Санкт-Петербурга
         имени Рабиндраната">
+    <!-- <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
     <script type="text/javascript" src="//esir.gov.spb.ru/static/widget/js/widget.js" charset="utf-8"></script>
     <?php wp_head(); ?>
 </head>
