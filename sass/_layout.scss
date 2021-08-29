@@ -5,16 +5,20 @@ html {
 }
 
 body {
+  min-height: 100%;
   position: relative;
+}
+
+.container-fluid {
+  padding: 0 30px;
+
+  @media (max-width: 600px) {
+    padding: 0 10px;
+  }
 }
 
 .page-container {
   margin-top: 24px;
-}
-
-.main-content {
-  padding: 2rem;
-  height: 100%;
 }
 
 .sidebar {
@@ -27,7 +31,6 @@ body {
 
 .wp-block-image {
   > img {
-    margin: 0 auto;
     height: auto;
     display: block;
     width: 90%;
