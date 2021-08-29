@@ -11,40 +11,44 @@
                     <?php dynamic_sidebar('page-sidebar'); ?>
             <?php endif; ?>
 
-            <a href="<?php echo site_url(
-                "/nezavisimaya-oczenka-kachestva-obrazovaniya/"
-                ); ?>" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-edu.png'); ?>" alt="">
+            <a target="_blank" href="https://vk.com/school_653_spb" class="aside__banner">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-vk.jpg'); ?>" alt="">
             </a>
 
-            <a href="<?php echo site_url(
-                "/priem-v-pervyj-klass-v-2021-godu/"
-                ); ?>" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-first.png'); ?>" alt="">
-            </a>
-
-            <a href="<?php echo site_url(
+            <a target="_blank" href="<?php echo site_url(
                 "/usloviya/pitanie/"
                 ); ?>" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-dining.png'); ?>" alt="">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-dining.jpg'); ?>" alt="">
             </a>
 
-            <a href="<?php echo site_url(
+            <a target="_blank" href="<?php echo site_url(
                 "/ezhednevnoe-menyu/"
                 ); ?>" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-menu.png'); ?>" alt="">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-menu.jpg'); ?>" alt="">
             </a>
 
-            <a href="<?php echo site_url(
+            <a target="_blank" href="<?php echo site_url(
                 "/deyatelnost/shkolnyj-sportivnyj-klub-druzhba/"
                 ); ?>" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-drujba.png'); ?>" alt="">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-drujba.jpg'); ?>" alt="">
             </a>
 
-            <a href="<?php echo site_url(
+            <a target="_blank" href="<?php echo site_url(
                 "/deyatelnost/doshkolnoe-otdelenie/"
                 ); ?>" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-odod.png'); ?>" alt="">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-odod.jpg'); ?>" alt="">
+            </a>
+
+            <a target="_blank" href="<?php echo site_url(
+                "/nezavisimaya-oczenka-kachestva-obrazovaniya/"
+                ); ?>" class="aside__banner">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-edu.jpg'); ?>" alt="">
+            </a>
+
+            <a target="_blank" href="<?php echo site_url(
+                "/priem-v-pervyj-klass-v-2021-godu/"
+                ); ?>" class="aside__banner">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-first.jpg'); ?>" alt="">
             </a>
       </aside>
       </div> 
