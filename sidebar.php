@@ -16,6 +16,12 @@
             </a>
 
             <a target="_blank" href="<?php echo site_url(
+                "/deyatelnost/doshkolnoe-otdelenie/"
+                ); ?>" class="aside__banner">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-odod.jpg'); ?>" alt="">
+            </a>
+
+            <a target="_blank" href="<?php echo site_url(
                 "/usloviya/pitanie/"
                 ); ?>" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri('/images/banners/banner-dining.jpg'); ?>" alt="">
@@ -31,12 +37,6 @@
                 "/deyatelnost/shkolnyj-sportivnyj-klub-druzhba/"
                 ); ?>" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri('/images/banners/banner-drujba.jpg'); ?>" alt="">
-            </a>
-
-            <a target="_blank" href="<?php echo site_url(
-                "/deyatelnost/doshkolnoe-otdelenie/"
-                ); ?>" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-odod.jpg'); ?>" alt="">
             </a>
 
             <a target="_blank" href="<?php echo site_url(
