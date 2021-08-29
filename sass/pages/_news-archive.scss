@@ -3,6 +3,10 @@
     align-self: center;
   }
 
+  .card {
+    width: 100%;
+  }
+
   @media (max-width: 800px) {
     .card-body {
       flex-wrap: wrap;

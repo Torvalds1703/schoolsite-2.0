@@ -8163,6 +8163,9 @@ figure.wp-block-table {
 .news-archive .img-thumbnail {
   align-self: center;
 }
+.news-archive .card {
+  width: 100%;
+}
 @media (max-width: 800px) {
   .news-archive .card-body {
     flex-wrap: wrap;

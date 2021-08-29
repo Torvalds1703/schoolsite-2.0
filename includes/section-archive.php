@@ -15,7 +15,7 @@
             <div class="blog-content ml-4">
                 <h1><?php the_title(); ?></h1>
                 <?php the_excerpt(); ?>
-                <a class="btn btn-success" href="<?php the_permalink(); ?>">Читать</a>
+                <a class="btn btn-info" href="<?php the_permalink(); ?>">Читать далее</a>
             </div>
         </div>
     </div>
