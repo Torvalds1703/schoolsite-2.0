@@ -7695,10 +7695,6 @@ nav.wp-calendar-nav {
   padding-top: 0;
 }
 
-.slider_instance {
-  width: 90%;
-}
-
 .wp-block-media-text__media > img {
   height: auto;
 }
@@ -7957,12 +7953,22 @@ body {
   margin-top: 0;
 }
 
+.slider_instance {
+  width: 90%;
+}
+
 .wp-block-image > img {
   height: auto;
   display: block;
   width: 90%;
 }
 
+@media (max-width: 991px) {
+  .slider_instance,
+.wp-block-image > img {
+    width: 100%;
+  }
+}
 figure.wp-block-table {
   margin-top: 24px;
 }

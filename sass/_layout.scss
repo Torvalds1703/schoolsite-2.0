@@ -29,11 +29,22 @@ body {
   margin-top: 0;
 }
 
+.slider_instance {
+  width: 90%;
+}
+
 .wp-block-image {
   > img {
     height: auto;
     display: block;
     width: 90%;
+  }
+}
+
+@media (max-width: 991px) {
+  .slider_instance,
+  .wp-block-image > img {
+    width: 100%;
   }
 }
 
