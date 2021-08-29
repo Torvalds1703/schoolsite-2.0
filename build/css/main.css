@@ -7720,8 +7720,8 @@ nav.wp-calendar-nav {
       -ms-hyphens: auto;
           hyphens: auto;
   padding: 3rem 1.5rem 1rem;
-  color: #6c757d;
-  font-size: 1rem;
+  font-size: 18px;
+  font-weight: 500;
   border-radius: 0.25rem;
 }
 .citation::before {

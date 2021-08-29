@@ -47,8 +47,10 @@
   margin: 0;
   hyphens: auto;
   padding: map-get($spacers, 5) map-get($spacers, 4) map-get($spacers, 3);
-  color: $blockquote-small-color;
-  font-size: $blockquote-font-size;
+  // color: $blockquote-small-color;
+  font-size: 18px;
+
+  font-weight: 500;
   border-radius: $border-radius;
   @include box-shadow($box-shadow);
 
