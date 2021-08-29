@@ -8159,3 +8159,12 @@ figure.wp-block-table {
     top: 16px;
   }
 }
+
+.news-archive .img-thumbnail {
+  align-self: center;
+}
+@media (max-width: 800px) {
+  .news-archive .card-body {
+    flex-wrap: wrap;
+  }
+}

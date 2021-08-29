@@ -1,0 +1,11 @@
+.news-archive {
+  .img-thumbnail {
+    align-self: center;
+  }
+
+  @media (max-width: 800px) {
+    .card-body {
+      flex-wrap: wrap;
+    }
+  }
+}
