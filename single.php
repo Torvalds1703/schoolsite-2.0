@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container-fluid mt-3">
+<div class="container-fluid mt-3 news-single">
   <div class="row align-content-center">
   <div class="col-12 col-lg-9">
   <?php if (has_post_thumbnail()): ?>

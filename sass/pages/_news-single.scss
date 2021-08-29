@@ -1,0 +1,12 @@
+.news-single {
+  .img-thumbnail {
+    width: 70%;
+    margin-bottom: 24px;
+
+    @media (max-width: 991px) {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

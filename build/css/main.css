@@ -8179,3 +8179,15 @@ figure.wp-block-table {
     flex-wrap: wrap;
   }
 }
+
+.news-single .img-thumbnail {
+  width: 70%;
+  margin-bottom: 24px;
+}
+@media (max-width: 991px) {
+  .news-single .img-thumbnail {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
