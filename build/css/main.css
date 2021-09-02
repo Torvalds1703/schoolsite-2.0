@@ -7680,6 +7680,10 @@ nav.wp-calendar-nav {
   display: none;
 }
 
+#js-show-iframe-wrapper {
+  margin-bottom: 18px;
+}
+
 .hero-section {
   background-size: cover;
   background-position: center;

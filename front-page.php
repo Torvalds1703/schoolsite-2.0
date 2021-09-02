@@ -8,8 +8,6 @@
 
 <div class="container-fluid">
 
-<div class="row"> 
-  <div class="col">
   <div id='js-show-iframe-wrapper'>
     <div class='pos-banner-fluid bf-23'>
       <div class='bf-23__decor'>
@@ -39,8 +37,6 @@
         </div>
       </div>
     </div>
-  </div>
-  </div>
   </div>
   <script>Widget("https://pos.gosuslugi.ru/form", 262465)</script>
 
