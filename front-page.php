@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<script src='https://pos.gosuslugi.ru/bin/script.min.js'></script> 
 
 <div class="container-fluid">
 
