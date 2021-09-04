@@ -55,7 +55,7 @@
           <img
               src="<?php echo get_theme_file_uri('/images/director.jpg'); ?>"
               alt="Фотография директора школы"
-              class="img-fluid rounded main__director-photo"
+              class="img-fluid rounded director-photo"
             />
           <blockquote class="citation citation-success">
             <div class="citation-body">

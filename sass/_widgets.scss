@@ -78,6 +78,20 @@ nav.wp-calendar-nav {
   display: none;
 }
 
+// GU-виджет
+
 #js-show-iframe-wrapper {
-  margin-bottom: 18px;
+  margin-bottom: 24px;
+
+  .bf-23__content {
+    padding: 12px 50px 0 24px;
+
+    @media (max-width: 703px) {
+      padding-top: 24px;
+    }
+  }
+
+  .bf-23__text {
+    font-size: 20px;
+  }
 }

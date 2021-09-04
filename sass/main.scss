@@ -81,12 +81,13 @@
 @import "../node_modules/rfs/scss";
 @import "mixins";
 @import "typography";
-@import "widgets";
 @import "components";
 @import "footer";
 @import "layout";
 @import "accordeon-section";
 @import "gu-widget";
+
+@import "widgets";
 
 @import "./pages/news-archive";
 @import "./pages/news-single";
