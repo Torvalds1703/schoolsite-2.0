@@ -7646,10 +7646,10 @@ a {
   display: block;
   margin: 0;
   line-height: 1.6;
+  font-size: 20px;
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
-  font-weight: 500;
   border-radius: 0.25rem;
 }
 .citation > .citation-footer {
