@@ -8408,7 +8408,7 @@ nav.wp-calendar-nav {
 }
 
 .news-archive .sidebar {
-  margin-top: 0;
+  margin-top: 16px;
 }
 .news-archive .img-thumbnail {
   align-self: flex-start;
