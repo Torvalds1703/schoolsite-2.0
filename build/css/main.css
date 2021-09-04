@@ -8407,6 +8407,9 @@ nav.wp-calendar-nav {
   font-size: 20px;
 }
 
+.news-archive .sidebar {
+  margin-top: 0;
+}
 .news-archive .img-thumbnail {
   align-self: flex-start;
 }
