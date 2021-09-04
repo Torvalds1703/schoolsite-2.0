@@ -8408,10 +8408,13 @@ nav.wp-calendar-nav {
 }
 
 .news-archive .img-thumbnail {
-  align-self: center;
+  align-self: flex-start;
 }
 .news-archive .card {
   width: 100%;
+}
+.news-archive .card h2 {
+  margin-top: 0;
 }
 @media (max-width: 800px) {
   .news-archive .card-body {
