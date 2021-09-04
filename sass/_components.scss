@@ -44,12 +44,8 @@
   display: block;
   margin: 0;
   line-height: 1.6;
-  font-size: 20px;
+  font-size: 18px;
   hyphens: auto;
-  // padding: map-get($spacers, 5) map-get($spacers, 4) map-get($spacers, 3);
-  // color: $blockquote-small-color;
-
-  // font-weight: 500;
   border-radius: $border-radius;
   @include box-shadow($box-shadow);
 
