@@ -7629,8 +7629,8 @@ a {
   width: 50%;
   float: left;
   display: block;
-  padding-right: 20px;
-  clear: both;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .navbar-nav {
@@ -7657,7 +7657,6 @@ a {
   color: #343a40;
   font-weight: bold;
   font-style: italic;
-  margin-bottom: 40px;
 }
 
 .accordion-requirements > div ul {
@@ -7668,10 +7667,10 @@ a {
 }
 
 .footer {
-  margin-top: 125px;
+  margin-top: 75px;
 }
 .footer__bottom {
-  background-color: var(--color-footer-bg);
+  background-color: #eeecec;
   padding-bottom: 30px;
   padding-top: 50px;
   padding-right: 30px;
@@ -7680,7 +7679,7 @@ a {
   display: flex;
 }
 .footer__bottom a {
-  color: var(--color-white);
+  color: var(--color-black);
 }
 .footer .socials ul {
   align-items: space-between;
@@ -7713,14 +7712,13 @@ a {
   background-color: var(--color-link-active);
 }
 .footer .socials--footer li {
-  background-color: var(--color-text-gray-dimmed);
+  background-color: var(--color-text-gray);
 }
 .footer .socials--footer li:hover {
-  background-color: var(--color-text-gray);
+  background-color: var(--color-active-blue);
 }
 
 .footer-bottom {
-  color: var(--color-white);
   font-size: 14px;
   line-height: 18px;
 }
@@ -8395,7 +8393,7 @@ nav.wp-calendar-nav {
 }
 
 #js-show-iframe-wrapper {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 #js-show-iframe-wrapper .bf-23__content {
   padding: 12px 50px 0 24px;

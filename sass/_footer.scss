@@ -1,8 +1,11 @@
 .footer {
-  margin-top: 125px;
+  margin-top: 75px;
 
   &__bottom {
-    background-color: var(--color-footer-bg);
+    // background-color: var(--color-footer-bg);
+
+    background-color: #eeecec;
+
     padding-bottom: 30px;
     padding-top: 50px;
     padding-right: 30px;
@@ -12,7 +15,7 @@
     }
 
     a {
-      color: var(--color-white);
+      color: var(--color-black);
     }
   }
 
@@ -49,10 +52,10 @@
 
     &--footer {
       li {
-        background-color: var(--color-text-gray-dimmed);
+        background-color: var(--color-text-gray);
 
         &:hover {
-          background-color: var(--color-text-gray);
+          background-color: var(--color-active-blue);
         }
       }
     }
@@ -63,7 +66,7 @@
   * {
     list-style-type: none;
   }
-  color: var(--color-white);
+  // color: var(--color-white);
   font-size: 14px;
   line-height: 18px;
 

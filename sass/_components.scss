@@ -25,9 +25,8 @@
   width: 50%;
   float: left;
   display: block;
-  padding-right: 20px;
-  // padding-bottom: 10px;
-  clear: both;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .navbar-nav {
@@ -63,7 +62,6 @@
     color: $dark;
     font-weight: bold;
     font-style: italic;
-    margin-bottom: 40px;
     // border-top: 1px solid;
   }
 }
