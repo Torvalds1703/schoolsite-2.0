@@ -7657,6 +7657,7 @@ a {
   color: #343a40;
   font-weight: bold;
   font-style: italic;
+  margin-bottom: 40px;
 }
 
 .accordion-requirements > div ul {
@@ -7875,6 +7876,9 @@ body {
 
 .home .sidebar {
   margin-top: 0;
+}
+.home .main {
+  margin-top: 24px;
 }
 
 .slider_instance {

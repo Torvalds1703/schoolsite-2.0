@@ -43,14 +43,6 @@
   <div class="row align-content-center">
     <div class="col-12 col-lg-9">
       <div class="">
-      <!-- <div class="col-12 order-1 col-xl-6">
-            <img
-              src="<?php echo get_theme_file_uri('/images/director.jpg'); ?>"
-              alt="Фотография директора школы"
-              class="img-fluid rounded main__director-photo"
-            />
-      </div> -->
-
         <div class="col-12 order-2 ">
           <img
               src="<?php echo get_theme_file_uri('/images/director.jpg'); ?>"
@@ -70,7 +62,8 @@
         </div>
     
         </div>
-        <div class="row mt-3">
+        <div class="row" style="
+    clear: both;">
           <div class="col-12 pl-4">
             <?php get_template_part('includes/section', 'frontcontent'); ?>
           </div>
@@ -80,7 +73,6 @@
       <?php get_sidebar(); ?>
       
   </div>
-</div>
 
 <?php get_footer();
 ?>
