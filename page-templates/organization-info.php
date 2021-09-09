@@ -565,7 +565,7 @@ Template Name: Новые Сведения об ОО
           <ul>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/04/pr_831_3.3.pdf"
+                "/wp-content/uploads/2021/08/ustav1.pdf"
                 ); ?>">Устав образовательной организации</a>
             </li>
             <li>
@@ -594,9 +594,7 @@ Template Name: Новые Сведения об ОО
                 ); ?>">Отчет о результатах самообследования</a>
             </li>
             <li>
-            <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/04/pr_831_3.3.pdf"
-                ); ?>">Предписания органов, осуществляющих государственный контроль (надзор) в сфере образования, отчеты об исполнении</a>
+            <a class="item-inactive" href="#">Предписания органов, осуществляющих государственный контроль (надзор) в сфере образования, отчеты об исполнении</a>
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
