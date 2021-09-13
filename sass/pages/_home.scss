@@ -1,0 +1,22 @@
+.home {
+  .wp-block-latest-posts__list {
+    display: flex;
+    justify-content: space-between;
+
+    > li {
+      width: 47%;
+    }
+
+    @media (max-width: 600px) {
+      flex-wrap: wrap;
+
+      > li {
+        width: 90%;
+      }
+
+      > li:not(:first-child) {
+        margin-top: 24px;
+      }
+    }
+  }
+}
