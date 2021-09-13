@@ -554,7 +554,7 @@ Template Name: Новые Сведения об ОО
       <div class="accordeon-item__card">
         <p class="accordeon-item__heading">Документы</p>
         <p class="accordeon-item__subheading">
-          <span class="accordeon-item__amount">Ссылок: 12</span>
+          <span class="accordeon-item__amount">Ссылок: 13</span>
           <span class="accordeon-item__close">Свернуть</span>
         </p>
           <div class="accordeon-item__arrow">
@@ -592,6 +592,11 @@ Template Name: Новые Сведения об ОО
             <a target="_blank" href="<?php echo site_url(
                 "/wp-content/uploads/2021/05/samoobsledovanie-2020.pdf"
                 ); ?>">Отчет о результатах самообследования</a>
+            </li>
+            <li>
+            <a target="_blank" href="<?php echo site_url(
+                "/wp-content/uploads/2021/09/grafik_kontrolnyh_i_proverochnyh_rabot-1-1-1.pdf"
+                ); ?>">График проведения оценочных процедур</a>
             </li>
             <li class="item-inactive">
             <a href="#">Предписания органов, осуществляющих государственный контроль (надзор) в сфере образования, отчеты об исполнении (отсутствуют)</a>
