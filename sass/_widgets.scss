@@ -82,9 +82,11 @@ nav.wp-calendar-nav {
 
 #js-show-iframe-wrapper {
   margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1.5px solid rgb(170, 169, 169);
 
   .bf-23__content {
-    padding: 12px 50px 0 24px;
+    padding: 12px 50px 0 0;
     @media (max-width: 703px) {
       padding-top: 24px;
     }
