@@ -8406,7 +8406,7 @@ nav.wp-calendar-nav {
   }
 }
 #js-show-iframe-wrapper .bf-23__text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -8429,13 +8429,16 @@ nav.wp-calendar-nav {
 }
 
 .news-single .img-thumbnail {
-  width: 70%;
+  width: 80%;
   margin-bottom: 24px;
 }
 @media (max-width: 991px) {
   .news-single .img-thumbnail {
     width: 85%;
   }
+}
+.news-single .news-single__date {
+  color: var(--color-text-gray);
 }
 
 .home .wp-block-latest-posts__list {

@@ -1,10 +1,15 @@
 .news-single {
   .img-thumbnail {
-    width: 70%;
+    width: 80%;
+
     margin-bottom: 24px;
 
     @media (max-width: 991px) {
       width: 85%;
     }
+  }
+
+  .news-single__date {
+    color: var(--color-text-gray);
   }
 }

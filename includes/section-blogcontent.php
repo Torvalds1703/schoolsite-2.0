@@ -3,7 +3,7 @@
     the_post(); ?>
 
     <?php the_content(); ?>
-    <p><?php echo get_the_date("d/m/Y h:i:s"); ?></p>
+    <p class="news-single__date"><?php echo get_the_date("d.m.Y"); ?></p>
 <!-- 
     <p>
       <?php
