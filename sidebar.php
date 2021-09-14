@@ -42,7 +42,13 @@
             <a target="_blank" href="<?php echo site_url(
                 "/nezavisimaya-oczenka-kachestva-obrazovaniya/"
                 ); ?>" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-edu.jpg'); ?>" alt="">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-noko.jpg'); ?>" alt="">
+            </a>
+
+            <a target="_blank" href="<?php echo site_url(
+                "/wp-content/uploads/2021/08/vr-programma-vospitaniya-podpisan.pdf"
+                ); ?>" class="aside__banner">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-edu-prog.jpg'); ?>" alt="">
             </a>
 
             <a target="_blank" href="<?php echo site_url(
