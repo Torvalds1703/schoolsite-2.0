@@ -8523,6 +8523,8 @@ nav.wp-calendar-nav {
   width: 100%;
 }
 .news-archive .card h2 {
+  font-size: 24px;
+  font-weight: 500;
   margin-top: 0;
 }
 .news-archive .card .btn {
