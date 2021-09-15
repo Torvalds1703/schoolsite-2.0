@@ -7653,7 +7653,7 @@ a {
 .hero-section__text a {
   background-color: white;
   padding: 6px;
-  font-size: 16px;
+  font-size: 17px;
   display: inline-block;
   margin: 0 auto;
   box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -7667,7 +7667,7 @@ a {
   .hero-section {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    font-size: 16px;
+    font-size: 17px;
   }
   .hero-section h1 {
     font-size: 1.1rem;
@@ -7712,7 +7712,7 @@ a {
 }
 .navbar-nav {
   justify-content: center;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -7796,7 +7796,7 @@ a {
 }
 
 .footer-bottom {
-  font-size: 16px;
+  font-size: 17px;
 }
 .footer-bottom * {
   list-style-type: none;
@@ -7926,12 +7926,12 @@ body {
   min-height: 100%;
   position: relative;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 160%;
 }
 @media (max-width: 600px) {
   body {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 150%;
   }
 }
@@ -7991,7 +7991,7 @@ figure.wp-block-table {
 }
 .aside__banner--covid > div {
   background-color: #eeecec;
-  font-size: 16px;
+  font-size: 17px;
   color: black;
   padding: 0 10px 5px;
   line-height: 170%;
@@ -8146,13 +8146,13 @@ figure.wp-block-table {
     transform: scale(0.35);
   }
   .accordeon-item__heading {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 150%;
     max-width: 100%;
   }
   .accordeon-item__subheading {
     color: var(--color-active-blue);
-    font-size: 16px;
+    font-size: 17px;
   }
   .accordeon-item__amount, .accordeon-item__close {
     border-bottom: 1px dotted var(--color-active-blue);
@@ -8164,7 +8164,7 @@ figure.wp-block-table {
     display: inline;
   }
   .accordeon-item__collapsing li {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 150%;
     padding: 16px 16px 16px 49px;
   }
@@ -8479,7 +8479,7 @@ nav.wp-calendar-nav {
 }
 
 .news-archive .sidebar {
-  margin-top: 16px;
+  margin-top: 17px;
 }
 .news-archive img {
   align-self: flex-start;
@@ -8535,5 +8535,5 @@ nav.wp-calendar-nav {
   }
 }
 .home .wp-block-latest-posts__post-date {
-  font-size: 16px;
+  font-size: 17px;
 }
