@@ -8016,7 +8016,7 @@ figure.wp-block-table {
 }
 
 .accordeon-item {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.03);
   border-radius: 10px;
   position: relative;
   transition: box-shadow 0.3s;
