@@ -152,3 +152,15 @@
     }
   }
 }
+
+// swiper
+
+.swiper-pagination-bullets {
+  bottom: 0 !important;
+}
+
+@media (max-width: 600px) {
+  .slider-arrow {
+    display: none;
+  }
+}
