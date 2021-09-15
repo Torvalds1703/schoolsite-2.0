@@ -7661,7 +7661,7 @@ a {
 .hero-section__text h1 {
   font-weight: 500;
   font-size: 1.3rem;
-  line-height: 140%;
+  line-height: 127%;
 }
 @media (max-width: 600px) {
   .hero-section {
@@ -8492,6 +8492,12 @@ nav.wp-calendar-nav {
 }
 .news-archive .card .btn {
   border: 0.5px solid var(--color-text-gray);
+  width: 170px;
+}
+@media (max-width: 500px) {
+  .news-archive .card .btn {
+    width: 100%;
+  }
 }
 @media (max-width: 800px) {
   .news-archive .card-body {
