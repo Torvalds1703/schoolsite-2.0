@@ -17,6 +17,12 @@ body {
   }
 }
 
+main {
+  ul > li:not(:first-child) {
+    margin-top: 10px;
+  }
+}
+
 .container-fluid {
   padding: 0 30px;
 }
@@ -26,9 +32,10 @@ body {
     padding: 0 10px;
   }
 
-  // .col-12 {
-  //   padding-right: 0;
-  // }
+  main.main {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
 }
 
 .page-container {

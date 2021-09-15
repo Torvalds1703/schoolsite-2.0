@@ -7,6 +7,8 @@
       width: 47%;
       display: flex;
       flex-direction: column;
+      // font-size: 18px;
+      font-weight: 500;
     }
 
     > li > a {
@@ -26,9 +28,5 @@
         margin-top: 24px;
       }
     }
-  }
-
-  .wp-block-latest-posts__post-date {
-    font-size: 17px;
   }
 }

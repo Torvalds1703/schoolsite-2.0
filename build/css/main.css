@@ -7670,8 +7670,8 @@ a {
     font-size: 17px;
   }
   .hero-section h1 {
-    font-size: 1.1rem;
-    line-height: 130%;
+    font-size: 1.2rem;
+    line-height: 135%;
   }
   .hero-section a {
     padding: 5px;
@@ -7719,6 +7719,26 @@ a {
   color: rgba(0, 0, 0, 0.7);
 }
 
+@media (max-width: 767px) {
+  .navbar-collapse {
+    margin-top: 24px;
+  }
+
+  .dropdown-menu.show {
+    padding: 4px;
+  }
+
+  .menu-item:not(:last-child) > .dropdown-item {
+    border-bottom: 1px solid #bebebe;
+  }
+
+  .dropdown-item {
+    white-space: normal;
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+  }
+}
 .citation {
   position: relative;
   display: block;
@@ -7796,7 +7816,7 @@ a {
 }
 
 .footer-bottom {
-  font-size: 17px;
+  font-size: 15px;
 }
 .footer-bottom * {
   list-style-type: none;
@@ -7817,7 +7837,7 @@ a {
   padding: 0 1rem;
 }
 .footer-bottom__organization {
-  max-width: 40%;
+  max-width: 35%;
 }
 .footer-bottom__organization > *:last-child {
   color: var(--color-text-gray);
@@ -7826,6 +7846,7 @@ a {
 .footer-bottom__address > *:not(:first-child) {
   color: var(--color-text-gray);
   margin-top: 0.8rem;
+  max-width: 90%;
 }
 .footer-bottom__contacts {
   min-width: 200px;
@@ -7859,6 +7880,7 @@ a {
     height: max-content;
     padding: 0 0 24px;
     position: relative;
+    font-size: 14px;
   }
   .footer-bottom__items {
     flex-direction: column;
@@ -7867,6 +7889,9 @@ a {
   .footer-bottom__items > li {
     margin-top: 24px;
     padding: 0;
+  }
+  .footer-bottom__address {
+    max-width: 90%;
   }
   .footer-bottom__logo {
     width: -webkit-max-content;
@@ -7884,7 +7909,7 @@ a {
     padding-right: 35px;
   }
   .footer-bottom__address {
-    margin-top: 90px !important;
+    margin-top: 75px !important;
   }
   .footer-bottom__socials > ul {
     justify-content: flex-start !important;
@@ -7936,6 +7961,10 @@ body {
   }
 }
 
+main ul > li:not(:first-child) {
+  margin-top: 10px;
+}
+
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   padding: 0 30px;
 }
@@ -7943,6 +7972,11 @@ body {
 @media (max-width: 600px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
     padding: 0 10px;
+  }
+
+  main.main {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
   }
 }
 .page-container {
@@ -8535,6 +8569,7 @@ nav.wp-calendar-nav {
   width: 47%;
   display: flex;
   flex-direction: column;
+  font-weight: 500;
 }
 .home .wp-block-latest-posts__list > li > a {
   padding-top: 12px;
@@ -8551,7 +8586,4 @@ nav.wp-calendar-nav {
   .home .wp-block-latest-posts__list > li:not(:first-child) {
     margin-top: 24px;
   }
-}
-.home .wp-block-latest-posts__post-date {
-  font-size: 17px;
 }

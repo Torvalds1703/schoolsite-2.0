@@ -31,8 +31,8 @@
     font-size: 17px;
 
     h1 {
-      font-size: 1.1rem;
-      line-height: 130%;
+      font-size: 1.2rem;
+      line-height: 135%;
     }
 
     a {
@@ -83,6 +83,27 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    margin-top: 24px;
+  }
+
+  .dropdown-menu.show {
+    padding: 4px;
+  }
+
+  .menu-item:not(:last-child) > .dropdown-item {
+    border-bottom: 1px solid rgb(190, 190, 190);
+  }
+
+  .dropdown-item {
+    white-space: normal;
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+  }
 }
 
 // citation
