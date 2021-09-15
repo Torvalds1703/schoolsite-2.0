@@ -8408,7 +8408,7 @@ aside > li {
   text-align: left;
   position: relative;
   bottom: 30px;
-  color: #333;
+  color: var(--color-text-gray);
   font-weight: 500;
   font-size: 14px;
   margin-top: 30px;
@@ -8447,7 +8447,7 @@ aside > li {
   padding-top: 10px;
 }
 #wp-calendar td#today {
-  background-color: #aaa;
+  background-color: #777575;
   color: #fff;
 }
 
