@@ -10,7 +10,7 @@
 <div class="container-fluid">
 
   <div class="row align-content-center">
-    <div class="col-12 col-lg-9">
+    <div class="main-content col-12 col-lg-9">
       <div>
       <div id='js-show-iframe-wrapper'>
     <div class='pos-banner-fluid bf-23'>
@@ -43,7 +43,7 @@
     </div>
   </div>
   <script>Widget("https://pos.gosuslugi.ru/form", 262465)</script>
-        <div class="col-12 order-2" style="padding:0;">
+        <div class="col-12 order-2" style="padding-left:0;">
           <img
               src="<?php echo get_theme_file_uri('/images/director.jpg'); ?>"
               alt="Фотография директора школы"

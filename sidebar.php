@@ -1,5 +1,4 @@
 <div class="sidebar col-3 d-lg-block d-none">
-      <div>
       <aside class="aside">
              <a href="<?php echo site_url(
                 "/info-covid-19/"
@@ -57,7 +56,6 @@
                   <img src="<?php echo get_theme_file_uri('/images/banners/banner-first.jpg'); ?>" alt="">
             </a>
       </aside>
-      </div> 
 </div>
 
 

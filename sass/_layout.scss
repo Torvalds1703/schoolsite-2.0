@@ -29,7 +29,7 @@ main {
 
 @media (max-width: 600px) {
   .container-fluid {
-    padding: 0 10px;
+    // padding: 0 10px;
   }
 
   main.main {
@@ -40,6 +40,15 @@ main {
 
 .page-container {
   margin-top: 24px;
+  max-width: 2000px;
+}
+
+.main-content {
+  padding-right: 48px;
+
+  @media (max-width: 991px) {
+    padding-right: 0;
+  }
 }
 
 .sidebar {
