@@ -8476,7 +8476,7 @@ nav.wp-calendar-nav {
 .news-archive .sidebar {
   margin-top: 16px;
 }
-.news-archive .img-thumbnail {
+.news-archive img {
   align-self: flex-start;
 }
 .news-archive .card {

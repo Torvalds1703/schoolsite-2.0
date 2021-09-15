@@ -9,7 +9,7 @@
             <?php if (has_post_thumbnail()): ?>
                 <img src="<?php the_post_thumbnail_url(
                   "blog-small"
-                ); ?>" alt="" class="img-fluid mb-3 img-thumbnail">
+                ); ?>" alt="" class="img-fluid mb-3">
             <?php endif; ?>
 
             <div class="blog-content ml-4">
