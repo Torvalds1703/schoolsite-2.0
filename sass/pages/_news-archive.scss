@@ -8,16 +8,32 @@
   }
 
   .card {
-    width: 100%;
+    // width: 100%;
 
     h2 {
       margin-top: 0;
+    }
+
+    .btn {
+      border: 0.5px solid var(--color-text-gray);
     }
   }
 
   @media (max-width: 800px) {
     .card-body {
       flex-wrap: wrap;
+
+      img {
+        width: 100%;
+      }
+
+      .blog-content {
+        margin-left: 0 !important;
+      }
+    }
+
+    .blog-content {
+      margin-left: 0 !important;
     }
   }
 }

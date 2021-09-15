@@ -8484,15 +8484,24 @@ nav.wp-calendar-nav {
 .news-archive img {
   align-self: flex-start;
 }
-.news-archive .card {
-  width: 100%;
-}
 .news-archive .card h2 {
   margin-top: 0;
+}
+.news-archive .card .btn {
+  border: 0.5px solid var(--color-text-gray);
 }
 @media (max-width: 800px) {
   .news-archive .card-body {
     flex-wrap: wrap;
+  }
+  .news-archive .card-body img {
+    width: 100%;
+  }
+  .news-archive .card-body .blog-content {
+    margin-left: 0 !important;
+  }
+  .news-archive .blog-content {
+    margin-left: 0 !important;
   }
 }
 
