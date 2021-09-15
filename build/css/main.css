@@ -8117,7 +8117,7 @@ figure.wp-block-table {
   background-color: var(--color-active-element);
 }
 .accordeon-item__collapsing li a:hover {
-  text-transform: none;
+  text-decoration: none;
 }
 .accordeon-item__collapsing li:not(:last-of-type)::after {
   background: var(--color-active-element);
