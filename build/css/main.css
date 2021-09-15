@@ -8484,6 +8484,9 @@ nav.wp-calendar-nav {
 .news-archive img {
   align-self: flex-start;
 }
+.news-archive .card {
+  width: 100%;
+}
 .news-archive .card h2 {
   margin-top: 0;
 }
