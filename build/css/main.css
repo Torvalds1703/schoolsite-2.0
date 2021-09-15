@@ -7776,6 +7776,11 @@ a {
   .slider-arrow {
     display: none;
   }
+
+  .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+  }
 }
 .footer {
   margin-top: 75px;
