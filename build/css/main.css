@@ -8016,7 +8016,7 @@ figure.wp-block-table {
 }
 
 .accordeon-item {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(168, 48, 48, 0.03);
   border-radius: 10px;
   position: relative;
   transition: box-shadow 0.3s;
@@ -8115,6 +8115,9 @@ figure.wp-block-table {
 }
 .accordeon-item__collapsing li:hover {
   background-color: var(--color-active-element);
+}
+.accordeon-item__collapsing li:hover a {
+  text-transform: none;
 }
 .accordeon-item__collapsing li:not(:last-of-type)::after {
   background: var(--color-active-element);
@@ -8528,4 +8531,7 @@ nav.wp-calendar-nav {
   .home .wp-block-latest-posts__list > li:not(:first-child) {
     margin-top: 24px;
   }
+}
+.home .wp-block-latest-posts__post-date {
+  font-size: 16px;
 }
