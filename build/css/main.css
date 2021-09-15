@@ -7974,8 +7974,8 @@ main ul > li:not(:first-child) {
 
 @media (max-width: 600px) {
   main.main {
-    padding-left: 5% !important;
-    padding-right: 5% !important;
+    padding-left: 4% !important;
+    padding-right: 4% !important;
   }
 }
 .page-container {
@@ -8621,7 +8621,10 @@ nav.wp-calendar-nav {
     margin: 0 !important;
   }
   .home .container-fluid, .home .container-sm, .home .container-md, .home .container-lg, .home .container-xl {
-    padding: 0;
+    padding: 0 3%;
+  }
+  .home .main-content {
+    padding: 0 !important;
   }
   .home main.main {
     padding-left: 0 !important;

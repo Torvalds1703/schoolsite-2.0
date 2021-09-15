@@ -55,7 +55,11 @@
     }
 
     .container-fluid {
-      padding: 0;
+      padding: 0 3%;
+    }
+
+    .main-content {
+      padding: 0 !important;
     }
 
     main.main {
