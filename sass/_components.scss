@@ -3,6 +3,42 @@
 .hero-section {
   background-size: cover;
   background-position: center;
+
+  > div {
+    margin: 0 auto;
+  }
+
+  &__text {
+    a {
+      background-color: white;
+      padding: 10px;
+      display: inline-block;
+      margin: 0 auto;
+      box-shadow: 0.5rem 0.5rem 1rem rgb(0 0 0 / 20%);
+    }
+
+    h1 {
+      font-weight: 500;
+      font-size: 1.3rem;
+      line-height: 140%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 16px;
+
+    h1 {
+      font-size: 1.1rem;
+      line-height: 130%;
+    }
+
+    a {
+      padding: 5px;
+      box-shadow: 0;
+    }
+  }
 }
 
 .logo {
@@ -29,6 +65,17 @@
   margin-bottom: 10px;
 }
 
+@media (max-width: 450px) {
+  .director-photo {
+    float: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    height: auto;
+  }
+}
+
 .navbar-nav {
   justify-content: center;
 }
@@ -43,7 +90,6 @@
   display: block;
   margin: 0;
   line-height: 1.6;
-  font-size: 16px;
   hyphens: auto;
   border-radius: $border-radius;
   @include box-shadow($box-shadow);
@@ -60,8 +106,8 @@
     margin: $spacer 0 0;
     // font-size: $blockquote-small-font-size;
     color: $dark;
-    font-weight: bold;
-    font-style: italic;
+    font-weight: 500;
+    font-style: normal;
     // border-top: 1px solid;
   }
 }

@@ -14,12 +14,12 @@
     </div>
 
     <div
-      class="col-12 col-xl-6 text-center d-flex flex-column "
+      class="hero-section__text col-12 col-xl-6 text-center d-flex flex-column"
     >
       <div class="text-muted info ">
         Государственное бюджетное общеобразовательное учреждение
       </div>
-      <h1 class="title my-2">
+      <h1 class="title">
         Средняя общеобразовательная школа № 653 <br />
         с углублённым изучением иностранных языков <br />
         (хинди и английского) <br />
@@ -27,11 +27,9 @@
         имени Рабиндраната Тагора
       </h1>
 
-      <div>
         <a href="<?php echo site_url(
           "/about-us/svedeniya-ob-obrazovatelnoj-organiz/"
-        ); ?>" class="text-info bg-white p-1">Сведения об образовательной организации</a>
-      </div>
+        ); ?>">Сведения об образовательной организации</a>
     </div>
 
     <!-- <div

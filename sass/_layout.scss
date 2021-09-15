@@ -7,14 +7,28 @@ html {
 body {
   min-height: 100%;
   position: relative;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 160%;
+
+  @media (max-width: 600px) {
+    font-size: 16px;
+    line-height: 150%;
+  }
 }
 
 .container-fluid {
   padding: 0 30px;
+}
 
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
+  .container-fluid {
     padding: 0 10px;
   }
+
+  // .col-12 {
+  //   padding-right: 0;
+  // }
 }
 
 .page-container {
@@ -72,7 +86,7 @@ figure.wp-block-table {
 
   &__banner--covid > div {
     background-color: #eeecec;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     padding: 0 10px 5px;
     line-height: 170%;

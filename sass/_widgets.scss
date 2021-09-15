@@ -31,16 +31,16 @@ aside > li {
     bottom: 30px;
     color: #333;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 10px;
     padding: 0;
     margin-bottom: 0;
   }
   thead {
-    font-size: 10px;
+    font-size: 12px;
   }
   thead th {
-    padding-bottom: 10px;
+    padding-bottom: 12px;
   }
   tbody {
     color: #aaa;
@@ -58,12 +58,12 @@ aside > li {
     background: none;
   }
   tfoot #next {
-    font-size: 10px;
+    font-size: 12px;
     text-transform: uppercase;
     text-align: right;
   }
   tfoot #prev {
-    font-size: 10px;
+    font-size: 12px;
     text-transform: uppercase;
     padding-top: 10px;
   }
@@ -95,5 +95,9 @@ nav.wp-calendar-nav {
   .bf-23__text {
     font-size: 18px;
     font-weight: 400;
+  }
+
+  .bf-23__decor {
+    background-position: 60% 45%;
   }
 }

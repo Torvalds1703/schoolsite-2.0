@@ -50,14 +50,14 @@
   }
 
   &__heading {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 130%;
     max-width: 66.7%;
   }
 
   &__subheading {
     color: var(--color-text-gray);
-    font-size: 16px;
+    font-size: 20px;
     line-height: 150%;
     margin-top: 8px;
   }
@@ -93,7 +93,7 @@
     }
 
     li {
-      font-size: 18px;
+      font-size: 20px;
       line-height: 120%;
       padding: 25px 109px 25px 110px;
       position: relative;
@@ -162,14 +162,14 @@
     }
 
     &__heading {
-      font-size: 14px;
+      font-size: 16px;
       line-height: 150%;
       max-width: 100%;
     }
 
     &__subheading {
       color: var(--color-active-blue);
-      font-size: 14px;
+      font-size: 16px;
     }
 
     &__amount,
@@ -186,7 +186,7 @@
     }
 
     &__collapsing li {
-      font-size: 14px;
+      font-size: 16px;
       line-height: 150%;
       padding: 16px 16px 16px 49px;
     }
