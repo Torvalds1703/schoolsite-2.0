@@ -7,7 +7,7 @@
 }
 
 .accordeon-item {
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(0, 0, 0, 0.04);
   // background-color: #a78989;
   // border: 2px solid var(--color-text-gray);
   border-radius: 10px;
@@ -50,14 +50,14 @@
   }
 
   &__heading {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 130%;
     max-width: 66.7%;
   }
 
   &__subheading {
     color: var(--color-text-gray);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 150%;
     margin-top: 8px;
   }
@@ -68,8 +68,9 @@
 
   &__arrow {
     align-items: center;
-    background-color: var(--color-active-element);
-    border: 1px solid var(--color-base-gray);
+    // background-color: var(--color-active-element);
+    background-color: rgba(0, 0, 0, 0.01);
+    border: 1px solid rgba(0, 0, 0, 0.068);
     border-radius: 50%;
     display: flex;
     height: 60px;
@@ -93,7 +94,7 @@
     }
 
     li {
-      font-size: 20px;
+      font-size: 18px;
       line-height: 120%;
       padding: 25px 109px 25px 110px;
       position: relative;
@@ -128,7 +129,9 @@
     }
 
     li:hover {
-      background-color: var(--color-active-element);
+      // background-color: var(--color-white);
+
+      background-color: rgba(0, 0, 0, 0.03);
     }
 
     li a:hover {

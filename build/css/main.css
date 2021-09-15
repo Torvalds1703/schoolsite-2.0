@@ -8016,7 +8016,7 @@ figure.wp-block-table {
 }
 
 .accordeon-item {
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(0, 0, 0, 0.04);
   border-radius: 10px;
   position: relative;
   transition: box-shadow 0.3s;
@@ -8044,13 +8044,13 @@ figure.wp-block-table {
   content: "";
 }
 .accordeon-item__heading {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 130%;
   max-width: 66.7%;
 }
 .accordeon-item__subheading {
   color: var(--color-text-gray);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 150%;
   margin-top: 8px;
 }
@@ -8059,8 +8059,8 @@ figure.wp-block-table {
 }
 .accordeon-item__arrow {
   align-items: center;
-  background-color: var(--color-active-element);
-  border: 1px solid var(--color-base-gray);
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 1px solid rgba(0, 0, 0, 0.068);
   border-radius: 50%;
   display: flex;
   height: 60px;
@@ -8082,7 +8082,7 @@ figure.wp-block-table {
   margin-bottom: 0;
 }
 .accordeon-item__collapsing li {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 120%;
   padding: 25px 109px 25px 110px;
   position: relative;
@@ -8114,7 +8114,7 @@ figure.wp-block-table {
   content: url("../../images/icons/bullet-black.svg");
 }
 .accordeon-item__collapsing li:hover {
-  background-color: var(--color-active-element);
+  background-color: rgba(0, 0, 0, 0.03);
 }
 .accordeon-item__collapsing li a:hover {
   text-decoration: none;
