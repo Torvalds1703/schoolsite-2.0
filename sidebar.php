@@ -1,4 +1,4 @@
-<div class="sidebar d-none d-lg-block col-3">
+<div class="sidebar col-3 d-lg-block d-none">
       <div>
       <aside class="aside">
              <a href="<?php echo site_url(
