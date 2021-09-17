@@ -7768,11 +7768,11 @@ a {
   color: #6c757d;
 }
 
-.swiper-pagination-bullets {
-  bottom: 0 !important;
-}
-
 @media (max-width: 600px) {
+  .swiper-pagination-bullets {
+    bottom: 0 !important;
+  }
+
   .slider-arrow {
     display: none;
   }

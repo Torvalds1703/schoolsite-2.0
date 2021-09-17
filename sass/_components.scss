@@ -155,11 +155,11 @@
 
 // swiper
 
-.swiper-pagination-bullets {
-  bottom: 0 !important;
-}
-
 @media (max-width: 600px) {
+  .swiper-pagination-bullets {
+    bottom: 0 !important;
+  }
+
   .slider-arrow {
     display: none;
   }
