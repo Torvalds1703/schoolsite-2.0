@@ -27,7 +27,7 @@
             </a>
 
             <a target="_blank" href="<?php echo site_url(
-                "/food"
+                "/pitanie-menu"
                 ); ?>" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri('/images/banners/banner-menu.jpg'); ?>" alt="">
             </a>
