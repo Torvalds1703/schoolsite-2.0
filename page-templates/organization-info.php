@@ -290,7 +290,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/"
+                "/sredstva-obucheniya-i-vospitaniya/"
                 ); ?>">Средства обучения и воспитания</a>
             </li>
             <li>
