@@ -101,7 +101,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/05/pravila-vnutrennego-rasporyadka.pdf"
+                "/wp-content/uploads/2021/10/pravila-vnutrennego-rasporyadka-obuchayushhihsya-2021.pdf"
                 ); ?>">Правила внутреннего распорядка обучающихся</a>
             </li>
             <li>
@@ -129,12 +129,12 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/05/pravila-priema.pdf"
+                "/wp-content/uploads/2021/10/pravila-priema-obuchayushhihsya-v-ou-2-2021.pdf"
                 ); ?>">Правила приема обучающихся</a>
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/05/rezhim-zanyatij-obuchayushhihsya.pdf"
+                "/wp-content/uploads/2021/10/rezhim-zanyatij-obuchayushhihsya-2021.pdf"
                 ); ?>">Режим занятий обучающихся</a>
             </li>
             <li>
@@ -144,12 +144,12 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/05/polozhenie-o-poryadke-i-osnovaniyah-perevoda-otchisleniya-i-vosstanovleniya.pdf"
+                "/wp-content/uploads/2021/10/poryadok-i-osnovaniya-perevoda-otchisleniya-i-vosstanovleniya-obuchayushhihsya-2021.pdf"
                 ); ?>">Порядок и основания перевода, отчисления обучающихся</a>
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/04/pr_831_3.3.pdf"
+                "/wp-content/uploads/2021/10/poryadok-oformleniya-vozniknoveniya-2021.pdf"
                 ); ?>">Порядок оформления отношений между образовательной организацией, обучающимися, родителями</a>
             </li>
           </ul>
