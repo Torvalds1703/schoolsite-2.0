@@ -139,7 +139,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/08/5._polozhenie_o_formah_periodichnosti_i_poryadke__pd.pdf"
+                "/wp-content/uploads/2021/10/polozhenie_o_formah_periodichnosti_i_poryadke_tekushhego_kontrolya_uspevaemosti_2-2021.pdf"
                 ); ?>">Формы, периодичность и порядок текущего контроля успеваемости и промежуточной аттестации обучающихся</a>
             </li>
             <li>
