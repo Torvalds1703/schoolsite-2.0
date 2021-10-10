@@ -448,27 +448,27 @@ Template Name: Новые Сведения об ОО
           <ul>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/uchebnye-kabinety/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Специально оборудованные учебные кабинеты</a>
             </li>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/obekty-dlya-provedeniya-prakticheskih-zanyatij/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Специально оборудованные объекты для проведения практических занятий</a>
             </li>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/biblioteka/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Специально оборудованные библиотеки</a>
             </li>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/obekty-sporta/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Специально оборудованные спортивные объекты</a>
             </li>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Специально оборудованные средства обучения и воспитания</a>
             </li>
             <li>
@@ -478,27 +478,27 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
              <a target="_blank" href="<?php echo site_url(
-                "/usloviya-pitaniya-obuchayushhihsya/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Специальные условия питания</a>
             </li>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/usloviya-ohrany-zdorovya-obuchayushhihsya/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Специальные условия охраны здоровья</a>
             </li>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/dostup-k-informaczionnym-sistemam-i-informaczionno-telekommunikaczionnym-setyam/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Доступ к информационным системам и информационно-телекоммуникационным сетям</a>
             </li>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/elektronnye-obrazovatelnye-resursy-k-kotorym-obespechivaetsya-dostup-obuchayushhihsya/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Доступ к электронным образовательным ресурсам</a>
             </li>
             <li>
               <a target="_blank" href="<?php echo site_url(
-                "/"
+                "/usloviya/dostupnaya-sreda-2/"
                 ); ?>">Специальные технические средства обучения</a>
             </li>
             <li class="item-inactive">
