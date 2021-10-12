@@ -64,7 +64,7 @@ Template Name: Новые Сведения об ОО
               </li>
               <li>
                 <a target="_blank" href="<?php echo site_url(
-                "/about-us/strukturnye-podrazdeleniya/"
+                "/about-us/struktura-i-organy-upravleniya-organizacziej/"
                 ); ?>">Структурные подразделения</a>
               </li>
               <li>
