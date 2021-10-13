@@ -1,9 +1,15 @@
 <div class="sidebar col-3 d-lg-block d-none">
       <aside class="aside">
-             <a href="<?php echo site_url(
+            <a href="<?php echo site_url(
                 "/info-covid-19/"
                 ); ?>" class="aside__banner--covid">
                   <div><span></span>Информация для родителей (законных представителей) о режиме функционирования ОУ в условиях распространения COVID-19</div>
+            </a>
+            
+            <a href="<?php echo site_url(
+                ".wp-content/uploads/2021/10/perepisnye-uchastki.pdf"
+                ); ?>" class="aside__banner--covid">
+                  <div style="margin-top: 20px">Переписные участки в Калининском районе СПб</div>
             </a>
 
             <?php if (is_active_sidebar('page-sidebar')): ?>
