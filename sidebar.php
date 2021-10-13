@@ -7,7 +7,7 @@
             </a>
             
             <a href="<?php echo site_url(
-                ".wp-content/uploads/2021/10/perepisnye-uchastki.pdf"
+                "/wp-content/uploads/2021/10/perepisnye-uchastki.pdf"
                 ); ?>" class="aside__banner--covid">
                   <div style="margin-top: 20px">Переписные участки в Калининском районе СПб</div>
             </a>
