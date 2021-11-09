@@ -6,15 +6,21 @@
                   <div><span></span>Информация для родителей (законных представителей) о режиме функционирования ОУ в условиях распространения COVID-19</div>
             </a>
             
-            <a href="<?php echo site_url(
+            <!-- <a href="<?php echo site_url(
                 "/wp-content/uploads/2021/10/perepisnye-uchastki.pdf"
                 ); ?>" class="aside__banner--covid">
                   <div style="margin-top: 20px">Переписные участки в Калининском районе СПб</div>
-            </a>
+            </a> -->
 
             <?php if (is_active_sidebar('page-sidebar')): ?>
                     <?php dynamic_sidebar('page-sidebar'); ?>
             <?php endif; ?>
+
+            <a target="_blank" href="<?php echo site_url(
+                "/telefony-goryachej-linii-dlya-obuchayushhihsya/"
+                ); ?>" class="aside__banner">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-phones.jpg'); ?>" alt="">
+            </a>
 
             <a target="_blank" href="https://vk.com/school_653_spb" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri('/images/banners/banner-vk.jpg'); ?>" alt="">
