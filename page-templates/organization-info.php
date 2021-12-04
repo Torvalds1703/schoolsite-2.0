@@ -187,8 +187,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/08/liczenziya.pdf"
-                ); ?>">Лицензия на осуществление образовательной деятельности</a>
+                "/wp-content/uploads/2021/12/liczenziya-s-prilozheniem.pdf"); ?>">Лицензия на осуществление образовательной деятельности (с приложениями)</a>
             </li>
           </ul>
         </div>
