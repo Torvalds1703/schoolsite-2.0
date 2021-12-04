@@ -33,7 +33,7 @@
             </a>
 
             <a target="_blank" href="<?php echo site_url(
-                "/deyatelnost/doshkolnoe-otdelenie/"
+                "/deyatelnost/otdelenie-dopolnitelnogo-obrazovaniya/"
                 ); ?>" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri('/images/banners/banner-odod.jpg'); ?>" alt="">
             </a>
