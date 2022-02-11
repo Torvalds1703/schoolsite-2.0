@@ -106,7 +106,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/05/pravila-vnutrennego-trudovogo-rasporyadka.pdf"
+                "/wp-content/uploads/2022/02/pravila-vnutrennego-trudovogo-rasporyadka.pdf"
                 ); ?>">Правила внутреннего трудового распорядка</a>
             </li>
             <li>
