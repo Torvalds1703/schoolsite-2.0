@@ -29,7 +29,7 @@
             </a>
 
             <a target="_blank" href="<?php echo site_url(
-                "/deyatelnost/gorodskoj-ozdorovitelnyj-lager-mozaika/"
+                "/organizacziya-otdyha-detej-v-kanikulyarnoe-vremya/"
                 ); ?>" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri('/images/banners/banner-camping.jpg'); ?>" alt="">
             </a>
@@ -78,6 +78,12 @@
                 "/wp-content/uploads/2021/08/vr-programma-vospitaniya-podpisan.pdf"
                 ); ?>" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri('/images/banners/banner-edu-prog.jpg'); ?>" alt="">
+            </a>
+
+            <a target="_blank" href="<?php echo site_url(
+                "/deyatelnost/gorodskoj-ozdorovitelnyj-lager-mozaika/"
+                ); ?>" class="aside__banner">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-mozaika.jpg'); ?>" alt="">
             </a>
 
       </aside>
