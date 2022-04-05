@@ -29,9 +29,9 @@
             </a>
 
             <a target="_blank" href="<?php echo site_url(
-                "/organizacziya-otdyha-detej-v-kanikulyarnoe-vremya/"
+                "/deyatelnost/gorodskoj-ozdorovitelnyj-lager-mozaika/"
                 ); ?>" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-camping.jpg'); ?>" alt="">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-mozaika.jpg'); ?>" alt="">
             </a>
 
             <a target="_blank" href="https://vk.com/school_653_spb" class="aside__banner">
@@ -81,11 +81,10 @@
             </a>
 
             <a target="_blank" href="<?php echo site_url(
-                "/deyatelnost/gorodskoj-ozdorovitelnyj-lager-mozaika/"
+                "/organizacziya-otdyha-detej-v-kanikulyarnoe-vremya/"
                 ); ?>" class="aside__banner">
-                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-mozaika.jpg'); ?>" alt="">
+                  <img src="<?php echo get_theme_file_uri('/images/banners/banner-camping.jpg'); ?>" alt="">
             </a>
-
       </aside>
 </div>
 
