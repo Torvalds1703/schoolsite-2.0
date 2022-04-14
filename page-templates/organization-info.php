@@ -121,8 +121,8 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/09/grafik_kontrolnyh_i_proverochnyh_rabot-1-1-1.pdf"
-                ); ?>">График проведения оценочных процедур</a>
+                "/provedenie-oczenochnyh-proczedur/"
+                ); ?>">Проведение оценочных процедур</a>
             </li>
             <li class="item-inactive">
             <a href="#">Предписания органов, осуществляющих государственный контроль (надзор) в сфере образования, отчеты об исполнении (отсутствуют)</a>
@@ -170,7 +170,7 @@ Template Name: Новые Сведения об ОО
         <div class="accordeon-item__collapsing">
           <ul>
             <li>
-            <a href="<?php echo site_url(
+            <a target="_blank" href="<?php echo site_url(
                 "/deyatelnost/obrazovatelnye-programmy/"
                 ); ?>">Реализуемые образовательные программы</a>
             </li>
