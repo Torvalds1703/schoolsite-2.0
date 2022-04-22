@@ -116,7 +116,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-                "/wp-content/uploads/2021/05/samoobsledovanie-2020.pdf"
+                "//wp-content/uploads/2022/04/samoobsledovanie-2022.pdf"
                 ); ?>">Отчет о результатах самообследования</a>
             </li>
             <li>
