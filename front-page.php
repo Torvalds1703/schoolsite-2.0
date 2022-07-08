@@ -45,7 +45,7 @@
   <script>Widget("https://pos.gosuslugi.ru/form", 262465)</script>
         <div class="col-12 order-2" style="padding:0;">
           <img
-              src="<?php echo get_theme_file_uri('/images/director.jpg'); ?>"
+              // src="<?php echo get_theme_file_uri("/images/director.jpg"); ?>"
               alt="Фотография директора школы"
               class="img-fluid rounded director-photo"
             />
@@ -59,7 +59,7 @@
             <p> За время работы школы накоплен определённый опыт и созданы традиции, но верится, что все лучшее ещё впереди. Впереди новые цели и задачи! Мы ясно понимаем перспективы и направления дальнейшего развития. И мы уверены, что сможем достичь многого. В добрый путь!</p>
             </div>
             <div class="citation-footer">
-              <cite>Елена Николаевна Шубина, директор школы.</cite>
+              <cite>Татьяна Евгеньевна Матвеева, И. о. директора школы.</cite>
             </div>
           </blockquote>
         </div>
@@ -68,7 +68,7 @@
         <div class="row" style="
     clear: both;">
           <div class="col-12">
-            <?php get_template_part('includes/section', 'frontcontent'); ?>
+            <?php get_template_part("includes/section", "frontcontent"); ?>
           </div>
       </div>
     </div>
