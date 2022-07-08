@@ -44,11 +44,11 @@
   </div>
   <script>Widget("https://pos.gosuslugi.ru/form", 262465)</script>
         <div class="col-12 order-2" style="padding:0;">
-          <img
-              // src="<?php echo get_theme_file_uri("/images/director.jpg"); ?>"
-              alt="Фотография директора школы"
-              class="img-fluid rounded director-photo"
-            />
+          // <img
+          //     src="<?php echo get_theme_file_uri("/images/director.jpg"); ?>"
+          //     alt="Фотография директора школы"
+          //     class="img-fluid rounded director-photo"
+          //   />
           <blockquote class="citation citation-success">
             <div class="citation-body">
             <p style="font-weight:500;">Друзья!</p>
