@@ -567,6 +567,31 @@ Template Name: Новые Сведения об ОО
           </ul>
         </div>
     </div>
+
+        <div class="accordeon__item accordeon-item accordeon-item--noicon">
+      <div class="accordeon-item__card">
+        <p class="accordeon-item__heading">Организация питания в образовательном учреждении</p>
+        <p class="accordeon-item__subheading">
+          <span class="accordeon-item__amount">Ссылок: 1</span>
+          <span class="accordeon-item__close">Свернуть</span>
+        </p>
+          <div class="accordeon-item__arrow">
+            <img src="<?php echo get_theme_file_uri(
+              "/images/icons/arrow-collapse.svg"
+            ); ?>" alt="">
+          </div>
+        </div>
+        <div class="accordeon-item__collapsing">
+          <ul>
+            <li>
+            <a target="_blank" href="<?php echo site_url(
+              "/usloviya/pitanie/"
+            ); ?>">Питание</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    
   </section>
 </p>
 
