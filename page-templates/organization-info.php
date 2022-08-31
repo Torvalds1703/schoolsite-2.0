@@ -572,7 +572,7 @@ Template Name: Новые Сведения об ОО
       <div class="accordeon-item__card">
         <p class="accordeon-item__heading">Организация питания в образовательном учреждении</p>
         <p class="accordeon-item__subheading">
-          <span class="accordeon-item__amount">Ссылок: 1</span>
+          <span class="accordeon-item__amount">Ссылок: 2</span>
           <span class="accordeon-item__close">Свернуть</span>
         </p>
           <div class="accordeon-item__arrow">
@@ -586,7 +586,12 @@ Template Name: Новые Сведения об ОО
             <li>
             <a target="_blank" href="<?php echo site_url(
               "/usloviya/pitanie/"
-            ); ?>">Питание</a>
+            ); ?>">Организация питания</a>
+            </li>
+            <li>
+            <a target="_blank" href="<?php echo site_url(
+              "/pitanie-menu/"
+            ); ?>">Ежедневное меню</a>
             </li>
           </ul>
         </div>
