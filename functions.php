@@ -1,65 +1,76 @@
 <?php
 
-add_filter('jpeg_quality', function($arg){return 100;});
+add_filter("jpeg_quality", function ($arg) {
+  return 100;
+});
 
 // Setup Carbon Fields
 
 use Carbon_Fields\Container;
 use Carbon_Fields\Field;
 
-add_action( 'carbon_fields_register_fields', 'crb_attach_post_meta' );
-function crb_attach_post_meta() {
+add_action("carbon_fields_register_fields", "crb_attach_post_meta");
+function crb_attach_post_meta()
+{
+  Container::make("post_meta", __("Page Options", "crb"))
+    ->show_on_template("page-templates/files-page.php")
+    ->add_fields([
+      Field::make("complex", "crb_documents", "Документы")
+        ->set_layout("tabbed-horizontal")
+        ->add_fields([
+          Field::make("text", "doc-title", "Название документа"),
+          Field::make("file", "doc-file", "Файл"),
+        ]),
+    ]);
 
-    Container::make( 'post_meta', __( 'Page Options', 'crb' ) )
-        ->show_on_template('page-templates/files-page.php')
-        ->add_fields( array(
-            Field::make( 'complex', 'crb_documents', 'Документы' )
-            	->set_layout( 'tabbed-horizontal' )
-            	->add_fields( array(
-            		Field::make( 'text', 'doc-title', 'Название документа' ),
-            		Field::make( 'file', 'doc-file', 'Файл'),
-            	) ),
-        ) );
+  Container::make("post_meta", __("Page Options", "crb"))
+    ->show_on_template("page-templates/documents-collapse.php")
+    ->add_fields([
+      Field::make(
+        "complex",
+        "crb_docs_groups",
+        "Группа документов"
+      )->add_fields([
+        Field::make("text", "group-title", "Название группы документов"),
+        Field::make("complex", "crb_docs", "Документы")
+          ->set_layout("tabbed-horizontal")
+          ->add_fields([
+            Field::make("text", "doc-title", "Название документа"),
+            Field::make("file", "doc-file", "Файл"),
+          ]),
+      ]),
+    ]);
 
-    Container::make( 'post_meta', __( 'Page Options', 'crb' ) )
-        ->show_on_template('page-templates/documents-collapse.php')
-        ->add_fields( array(
-            Field::make( 'complex', 'crb_docs_groups', 'Группа документов' )
-            	->add_fields( array(
-            		Field::make( 'text', 'group-title', 'Название группы документов' ),
-                Field::make( 'complex', 'crb_docs', 'Документы' )
-                ->set_layout( 'tabbed-horizontal' )
-                ->add_fields( array(
-                  Field::make( 'text', 'doc-title', 'Название документа' ),
-                  Field::make( 'file', 'doc-file', 'Файл'),
-                ) ),
-            	) ),
-        ) );    
-
-        Container::make( 'post_meta', __( 'Page Options', 'crb' ) )
-        ->show_on_template('page-templates/organization-info.php')
-        ->add_fields( array(
-            Field::make( 'complex', 'crb_reqs_groups', 'Группа разделов требований' )
-            	->add_fields( array(
-            		Field::make( 'text', 'group-title', 'Название раздела требований' ),
-                Field::make( 'file', 'requirements', 'Страница из требований Рособрнадзора'),
-                Field::make( 'complex', 'crb_pages', 'Блок ссылок на страницы' )
-                ->set_layout( 'tabbed-horizontal' )
-                ->add_fields( array(
-                  Field::make( 'text', 'page-title', 'Название раздела требований' ),
-                  Field::make( 'text', 'page-link', 'Ссылка на страницу сайта' ),
-                ),
-              ),
-            	) ),
-        ) );   
+  Container::make("post_meta", __("Page Options", "crb"))
+    ->show_on_template("page-templates/organization-info.php")
+    ->add_fields([
+      Field::make(
+        "complex",
+        "crb_reqs_groups",
+        "Группа разделов требований"
+      )->add_fields([
+        Field::make("text", "group-title", "Название раздела требований"),
+        Field::make(
+          "file",
+          "requirements",
+          "Страница из требований Рособрнадзора"
+        ),
+        Field::make("complex", "crb_pages", "Блок ссылок на страницы")
+          ->set_layout("tabbed-horizontal")
+          ->add_fields([
+            Field::make("text", "page-title", "Название раздела требований"),
+            Field::make("text", "page-link", "Ссылка на страницу сайта"),
+          ]),
+      ]),
+    ]);
 }
 
-add_action( 'after_setup_theme', 'crb_load' );
-function crb_load() {
-    require_once( ABSPATH . '/vendor/autoload.php' );
-    \Carbon_Fields\Carbon_Fields::boot();
+add_action("after_setup_theme", "crb_load");
+function crb_load()
+{
+  require_once ABSPATH . "/vendor/autoload.php";
+  \Carbon_Fields\Carbon_Fields::boot();
 }
-
 
 // Load Stylesheets
 
@@ -148,29 +159,42 @@ function register_navwalker()
 }
 add_action("after_setup_theme", "register_navwalker");
 
-
 //Add Teachers Category
 
-function school_post_types ()
+function school_post_types()
 {
-  register_post_type('event', array(
-    'public' => true,
-    
-    'labels' => array(
-      'name' => 'Учителя'
-    ),
-    'menu_icon' => 'dashicons-businesswoman'
-  ));
+  register_post_type("event", [
+    "public" => true,
+
+    "labels" => [
+      "name" => "Учителя",
+    ],
+    "menu_icon" => "dashicons-businesswoman",
+  ]);
 }
 
-add_action('init', 'school_post_types');
+add_action("init", "school_post_types");
 
-
-function get_teachers ()
+function get_teachers()
 {
   global $wpdb;
-  $teachers = $wpdb->get_results( "SELECT * FROM teachers" );
-
+  $teachers = $wpdb->get_results("SELECT * FROM teachers");
 }
 
+// Function to get archives list with limited months
+function wpb_limit_archives()
+{
+  $my_archives = wp_get_archives([
+    "type" => "monthly",
+    "limit" => 6,
+    "echo" => 0,
+  ]);
 
+  return $my_archives;
+}
+
+// Create a shortcode
+add_shortcode("wpb_custom_archives", "wpb_limit_archives");
+
+// Enable shortcode execution in text widget
+add_filter("widget_text", "do_shortcode");
