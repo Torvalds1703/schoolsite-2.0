@@ -115,6 +115,25 @@ figure.wp-block-table {
     }
   }
 
+  &__banner--feedback > div {
+    background-color: #eeecec;
+    font-size: 17px;
+    color: black;
+    padding: 0 10px 5px;
+    line-height: 170%;
+
+    span {
+      display: inline-block;
+      background-image: url("../../images/icons/feedback-icon.svg");
+      height: 30px;
+      width: 30px;
+      position: relative;
+      top: 11px;
+      background-size: 30px;
+      margin-right: 3px;
+    }
+  }
+
   &__banner:not(:first-child) {
     margin-top: 20px;
   }

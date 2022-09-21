@@ -6,6 +6,12 @@
                   <div><span></span>Информация для родителей (законных представителей) о режиме функционирования ОУ в условиях распространения COVID-19</div>
             </a>
             
+            <a href="<?php echo site_url(
+              "/obratnaya-svyaz/"
+            ); ?>" class="aside__banner--feedback">
+                  <div><span></span>Обратная связь</div>
+            </a>
+            
             <!-- <a href="<?php echo site_url(
               "/wp-content/uploads/2021/10/perepisnye-uchastki.pdf"
             ); ?>" class="aside__banner--covid">
