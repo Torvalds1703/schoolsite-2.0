@@ -8072,6 +8072,7 @@ figure.wp-block-table {
   margin-right: 3px;
 }
 .aside__banner--feedback > div {
+  margin-top: 20px;
   background-color: #eeecec;
   font-size: 17px;
   color: black;
