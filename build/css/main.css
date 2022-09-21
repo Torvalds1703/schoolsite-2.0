@@ -8071,6 +8071,23 @@ figure.wp-block-table {
   background-size: 30px;
   margin-right: 3px;
 }
+.aside__banner--feedback > div {
+  background-color: #eeecec;
+  font-size: 17px;
+  color: black;
+  padding: 0 10px 5px;
+  line-height: 170%;
+}
+.aside__banner--feedback > div span {
+  display: inline-block;
+  background-image: url("../../images/icons/feedback-icon.svg");
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 11px;
+  background-size: 30px;
+  margin-right: 3px;
+}
 .aside__banner:not(:first-child) {
   margin-top: 20px;
 }
