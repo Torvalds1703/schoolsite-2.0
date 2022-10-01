@@ -8126,6 +8126,9 @@ figure.wp-block-table {
   }
 }
 
+.aside-banners {
+  margin-top: 1.2rem;
+}
 @media (max-width: 767px) {
   .aside-banners {
     display: flex;
@@ -8139,12 +8142,6 @@ figure.wp-block-table {
   }
 }
 @media (max-width: 500px) {
-  .aside-banners {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0 !important;
-    justify-content: space-between;
-  }
   .aside-banners .aside__banner {
     width: 100%;
     margin-bottom: 15px;
@@ -8544,6 +8541,10 @@ aside > li {
 
 @media (max-width: 991px) {
   .widget_archive {
+    display: none;
+  }
+
+  .archive-item {
     display: none;
   }
 }

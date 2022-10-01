@@ -169,6 +169,8 @@ figure.wp-block-table {
 }
 
 .aside-banners {
+  margin-top: 1.2rem;
+
   @media (max-width: 767px) {
     display: flex;
     flex-wrap: wrap;
@@ -181,10 +183,6 @@ figure.wp-block-table {
   }
 
   @media (max-width: 500px) {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0 !important;
-    justify-content: space-between;
     .aside__banner {
       width: 100%;
       margin-bottom: 15px;

@@ -188,6 +188,8 @@ function wpb_limit_archives()
     "type" => "monthly",
     "limit" => 6,
     "echo" => 0,
+    "before" => '<div class="archive-item">',
+    "after" => "</div>",
   ]);
 
   return $my_archives;
