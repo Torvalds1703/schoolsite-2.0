@@ -6,7 +6,7 @@ Template Name: Документы
 
 <?php get_header(); ?>
 
-
+  <div class="container-fluid">
   <div class="row align-content-center">
   <main class="col-12 col-lg-9 px-5 main">
     
@@ -23,23 +23,26 @@ Template Name: Документы
         </thead>
         <tbody>
           <?php
-              $documents = carbon_get_the_post_meta('crb_documents');
-              $counter = 1;
-              foreach ( $documents as $document ) {
-                echo '<tr>';
-                echo '<td>' . $counter . '</td>';
-                echo '<td> ' . $document['doc-title'] . '</td>';
-                echo '<td><a href="' . wp_get_attachment_url($document['doc-file']) . '">cкачать</a></td>';
-                echo '</tr>';
-                $counter = $counter + 1;
-              }
-            ?>
+          $documents = carbon_get_the_post_meta("crb_documents");
+          $counter = 1;
+          foreach ($documents as $document) {
+            echo "<tr>";
+            echo "<td>" . $counter . "</td>";
+            echo "<td> " . $document["doc-title"] . "</td>";
+            echo '<td><a href="' .
+              wp_get_attachment_url($document["doc-file"]) .
+              '">cкачать</a></td>';
+            echo "</tr>";
+            $counter = $counter + 1;
+          }
+          ?>
         </tbody>
       </table>
 
 
       </main>
     <?php get_sidebar(); ?>
+  </div>
   </div>
 
 <?php get_footer();

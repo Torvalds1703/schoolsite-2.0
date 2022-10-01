@@ -17,10 +17,22 @@ aside > li {
   }
 }
 
+@media (max-width: 991px) {
+  .widget_archive {
+    display: none;
+  }
+}
+
 /* calendar widget */
 
 #block-3 {
   margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .wp-block-calendar {
+    display: none;
+  }
 }
 
 #wp-calendar {

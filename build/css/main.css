@@ -8023,7 +8023,7 @@ main ul > li:not(:first-child) {
   padding-right: 0 !important;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .sidebar {
     padding-left: 50px;
   }
@@ -8540,11 +8540,21 @@ aside > li {
   margin-top: -10px;
 }
 
+@media (max-width: 991px) {
+  .widget_archive {
+    display: none;
+  }
+}
 /* calendar widget */
 #block-3 {
   margin-top: 20px;
 }
 
+@media (max-width: 991px) {
+  .wp-block-calendar {
+    display: none;
+  }
+}
 #wp-calendar #calendar-wrap {
   width: 100%;
 }
@@ -8674,7 +8684,7 @@ nav.wp-calendar-nav {
 .home .container-fluid, .home .container-sm, .home .container-md, .home .container-lg, .home .container-xl {
   padding: 0 22px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .home .container-fluid, .home .container-sm, .home .container-md, .home .container-lg, .home .container-xl {
     padding: 0 15px;
   }
