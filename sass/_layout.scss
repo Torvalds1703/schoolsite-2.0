@@ -68,6 +68,8 @@ main {
 .home {
   .sidebar {
     margin-top: 0;
+    display: block !important;
+    padding-right: 0 !important;
   }
 
   .main {
