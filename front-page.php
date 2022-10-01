@@ -6,20 +6,20 @@
 })()
 </script>
 
-<div class="container-fluid">
+<div class="container-fluid front-page">
 
   <div class="row align-content-center">
-    <div class="main-content col-12 col-lg-9">
+    <div class="main-content col-md-8 col-lg-9">
       <div>
       <div id='js-show-iframe-wrapper'>
     <div class='pos-banner-fluid bf-23'>
       <div class='bf-23__decor'>
         <div class='bf-23__logo-wrap'>
-          <img
+          <!-- <img
             class='bf-23__logo'
             src='https://pos.gosuslugi.ru/bin/banner-fluid/gosuslugi-logo-blue.svg'
             alt='Госуслуги'
-          />
+          /> -->
           <div class='bf-23__slogan'>Решаем вместе</div>
         </div>
       </div>

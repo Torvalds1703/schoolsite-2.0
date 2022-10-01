@@ -1,6 +1,10 @@
 .home {
   .container-fluid {
-    padding: 0 30px;
+    padding: 0 22px;
+
+    @media (max-width: 992px) {
+      padding: 0 15px;
+    }
   }
 
   .wp-block-latest-posts__list {

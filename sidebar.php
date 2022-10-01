@@ -1,4 +1,4 @@
-<div class="sidebar col-3 d-lg-block d-none">
+  <div class="sidebar col-lg-3 col-md-4 d-lg-block d-none">
       <aside class="aside">
             <a href="<?php echo site_url(
               "/info-covid-19/"
@@ -22,6 +22,7 @@
                     <?php dynamic_sidebar("page-sidebar"); ?>
             <?php endif; ?>
 
+            <div class="aside aside-banners">
             <a target="_blank" href="<?php echo site_url(
               "/telefony-goryachej-linii-dlya-obuchayushhihsya/"
             ); ?>" class="aside__banner">
@@ -115,6 +116,7 @@
                     "/images/banners/banner-mozaika.jpg"
                   ); ?>" alt="">
             </a>
+          </div>
       </aside>
 </div>
 

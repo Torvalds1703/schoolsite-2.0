@@ -23,10 +23,6 @@ main {
   }
 }
 
-// .container-fluid {
-//   padding: 0 30px;
-// }
-
 @media (max-width: 600px) {
   main.main {
     padding-left: 4% !important;
@@ -49,6 +45,24 @@ main {
 
 .sidebar {
   margin-top: 56px;
+}
+
+.front-page .sidebar {
+  display: block !important;
+  padding-right: 0 !important;
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    padding-left: 0;
+    margin-top: 30px !important;
+  }
 }
 
 .home {
@@ -98,10 +112,14 @@ figure.wp-block-table {
 
   &__banner--covid > div {
     background-color: #eeecec;
-    font-size: 17px;
+    font-size: 15px;
     color: black;
     padding: 0 10px 5px;
     line-height: 170%;
+
+    @media (max-width: 767px) {
+      background-color: transparent;
+    }
 
     span {
       display: inline-block;
@@ -118,10 +136,14 @@ figure.wp-block-table {
   &__banner--feedback > div {
     margin-top: 20px;
     background-color: #eeecec;
-    font-size: 17px;
+    font-size: 15px;
     color: black;
     padding: 0 10px 5px;
     line-height: 170%;
+
+    @media (max-width: 767px) {
+      background-color: transparent;
+    }
 
     span {
       display: inline-block;
@@ -137,5 +159,33 @@ figure.wp-block-table {
 
   &__banner:not(:first-child) {
     margin-top: 20px;
+
+    @media (max-width: 767px) {
+      margin-top: 0;
+    }
+  }
+}
+
+.aside-banners {
+  @media (max-width: 767px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0 !important;
+    justify-content: space-between;
+    .aside__banner {
+      width: 49%;
+      margin-bottom: 15px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0 !important;
+    justify-content: space-between;
+    .aside__banner {
+      width: 100%;
+      margin-bottom: 15px;
+    }
   }
 }
