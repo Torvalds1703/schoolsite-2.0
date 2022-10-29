@@ -133,11 +133,13 @@ Template Name: Новые Сведения об ОО
               "/wp-content/uploads/2022/05/samoobsled.pdf"
             ); ?>">Отчет о результатах самообследования</a>
             </li>
+
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/provedenie-oczenochnyh-proczedur/"
-            ); ?>">Проведение оценочных процедур</a>
+              "/wp-content/uploads/2022/09/grafik-oczenochnyh-proczedur-2022.pdf"
+            ); ?>">График проведения оценочных процедур</a>
             </li>
+            
             <li class="item-inactive">
             <a href="#">Предписания органов, осуществляющих государственный контроль (надзор) в сфере образования, отчеты об исполнении (отсутствуют)</a>
             </li>
