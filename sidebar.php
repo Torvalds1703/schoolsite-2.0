@@ -86,7 +86,7 @@
             </a>
 
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2021/08/vr-programma-vospitaniya-podpisan.pdf"
+              "/wp-content/uploads/2022/11/rp-vospitaniya-1.pdf"
             ); ?>" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri(
                     "/images/banners/banner-edu-prog.jpg"
