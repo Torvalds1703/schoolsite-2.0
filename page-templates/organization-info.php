@@ -125,7 +125,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2021/05/kollekttivnyj-dogovor-20-22.pdf"
+              "/wp-content/uploads/2022/12/kollektivnyj-dogovor.pdf"
             ); ?>">Коллективный договор</a>
             </li>
             <li>
