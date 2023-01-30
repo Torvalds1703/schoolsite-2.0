@@ -136,7 +136,7 @@ Template Name: Новые Сведения об ОО
 
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2022/09/grafik-oczenochnyh-proczedur-2022.pdf"
+              "/wp-content/uploads/2023/01/grafik-oczenochnyh-proczedur-2022-2023-uchebnyj-god-ii-polugodie.pdf"
             ); ?>">График проведения оценочных процедур</a>
             </li>
             
