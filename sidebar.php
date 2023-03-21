@@ -37,9 +37,7 @@
                   ); ?>" alt="">
             </a>
 
-            <a target="_blank" href="<?php echo site_url(
-              "/god-pedagoga-i-nastavnika"
-            ); ?>" class="aside__banner">
+            <a target="_blank" href="https://edu.gov.ru/god_pedagoga_i_nastavnika/" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri(
                     "/images/banners/banner-teachers-year.jpg"
                   ); ?>" alt="">
