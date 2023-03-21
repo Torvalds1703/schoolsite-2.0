@@ -39,7 +39,7 @@
 
             <a target="_blank" href="https://edu.gov.ru/god_pedagoga_i_nastavnika/" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri(
-                    "/images/banners/banner-teachers-year.jpg"
+                    "/images/banners/banner-teacher-year.jpg"
                   ); ?>" alt="">
             </a>
 
