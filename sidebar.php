@@ -1,5 +1,9 @@
   <div class="sidebar col-lg-3 col-md-4 d-lg-block d-none">
       <aside class="aside">
+           <a href="https://znanio.ru/org/74221" title="Рейтинг образовательной организации">
+              <img src="https://znanio.ru/org/c/74221" style="width:100%;max-width:176px">
+            </a>
+
             <a href="<?php echo site_url(
               "/info-covid-19/"
             ); ?>" class="aside__banner--covid">
@@ -10,16 +14,6 @@
               "/obratnaya-svyaz/"
             ); ?>" class="aside__banner--feedback">
                   <div><span></span>Обратная связь</div>
-            </a>
-            
-            <!-- <a href="<?php echo site_url(
-              "/wp-content/uploads/2021/10/perepisnye-uchastki.pdf"
-            ); ?>" class="aside__banner--covid">
-                  <div style="margin-top: 20px">Переписные участки в Калининском районе СПб</div>
-            </a> -->
-
-            <a href="https://znanio.ru/org/74221" title="Рейтинг образовательной организации">
-              <img src="https://znanio.ru/org/c/74221" style="width:100%;max-width:176px">
             </a>
 
             <?php if (is_active_sidebar("page-sidebar")): ?>

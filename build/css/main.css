@@ -8075,6 +8075,7 @@ figure.wp-block-table {
 .aside__banner--covid > div {
   background-color: #eeecec;
   font-size: 15px;
+  margin-top: 20px;
   color: black;
   padding: 0 10px 5px;
   line-height: 170%;
