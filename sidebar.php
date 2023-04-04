@@ -18,6 +18,10 @@
                   <div style="margin-top: 20px">Переписные участки в Калининском районе СПб</div>
             </a> -->
 
+            <a href="https://znanio.ru/org/74221" title="Рейтинг образовательной организации">
+              <img src="https://znanio.ru/org/c/74221" style="width:100%;max-width:176px">
+            </a>
+
             <?php if (is_active_sidebar("page-sidebar")): ?>
                     <?php dynamic_sidebar("page-sidebar"); ?>
             <?php endif; ?>
