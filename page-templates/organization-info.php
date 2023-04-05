@@ -130,7 +130,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2022/05/samoobsled.pdf"
+              "/about-us/samoobsledovanie/"
             ); ?>">Отчет о результатах самообследования</a>
             </li>
 
