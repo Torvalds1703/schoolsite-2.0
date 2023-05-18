@@ -1,9 +1,22 @@
   <div class="sidebar col-lg-3 col-md-4 d-lg-block d-none">
       <aside class="aside">
-           <a href="https://znanio.ru/org/74221" title="Рейтинг образовательной организации">
+           <!-- <a href="https://znanio.ru/org/74221" title="Рейтинг образовательной организации">
               <img src="https://znanio.ru/org/c/74221" style="width:100%;max-width:176px">
-            </a>
+            </a> -->
 
+           <a href="https://rating-web.ru/uchastniki/38908/"
+              style="
+              display: block;
+              width: 100%;
+              padding-top: 15px;
+              padding-bottom: 15px;
+              background-color: #eeecec;"
+              ><img
+                  src="https://rating-web.ru/images/pennants/winner.png"
+                  alt="Участник Общероссийского рейтинга образовательных сайтов"
+                  style="max-width: 120px; display: block; margin: auto"
+              />
+            </a>
             <a href="<?php echo site_url(
               "/info-covid-19/"
             ); ?>" class="aside__banner--covid">
