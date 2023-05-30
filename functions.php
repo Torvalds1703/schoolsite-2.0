@@ -186,7 +186,7 @@ function wpb_limit_archives()
 {
   $my_archives = wp_get_archives([
     "type" => "monthly",
-    "limit" => 6,
+    "limit" => 2,
     "echo" => 0,
     "before" => '<div class="archive-item">',
     "after" => "</div>",

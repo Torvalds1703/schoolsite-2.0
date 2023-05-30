@@ -14,7 +14,7 @@
               ><img
                   src="https://rating-web.ru/images/pennants/winner.png"
                   alt="Участник Общероссийского рейтинга образовательных сайтов"
-                  style="max-width: 120px; display: block; margin: auto"
+                  style="max-width: 160px; display: block; margin: auto"
               />
             </a>
             <a href="<?php echo site_url(
