@@ -145,7 +145,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2021/10/pravila-priema-obuchayushhihsya-v-ou-2-2021.pdf"
+              "/wp-content/uploads/2023/05/pravila-priyoma-v-ou.pdf"
             ); ?>">Правила приема обучающихся</a>
             </li>
             <li>
@@ -161,7 +161,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2021/10/poryadok-i-osnovaniya-perevoda-otchisleniya-i-vosstanovleniya-obuchayushhihsya-2021.pdf"
+              "/wp-content/uploads/2023/05/poryadok-i-osnovaniya-perevoda-otchisleniya-i-vosstanovleniya-obuchayushhihsya-2023.pdf"
             ); ?>">Порядок и основания перевода, отчисления обучающихся</a>
             </li>
             <li>
