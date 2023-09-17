@@ -133,10 +133,9 @@ Template Name: Новые Сведения об ОО
               "/about-us/samoobsledovanie/"
             ); ?>">Отчет о результатах самообследования</a>
             </li>
-
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2023/01/grafik-oczenochnyh-proczedur-2022-2023-uchebnyj-god-ii-polugodie.pdf"
+              "/wp-content/uploads/2023/09/graik_ocenochnix_procedyr_23-4.pdf"
             ); ?>">График проведения оценочных процедур</a>
             </li>
             
