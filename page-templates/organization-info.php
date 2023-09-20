@@ -213,6 +213,11 @@ Template Name: Новые Сведения об ОО
               "/wp-content/uploads/2021/12/liczenziya-s-prilozheniem.pdf"
             ); ?>">Лицензия на осуществление образовательной деятельности (с приложениями)</a>
             </li>
+            <li>
+            <a target="_blank" href="<?php echo site_url(
+              "/wp-content/uploads/2023/09/reestrovaya-vypiska.pdf"
+            ); ?>">Выписка из реестра лицензий на осуществление образовательной деятельности</a>
+            </li>
           </ul>
         </div>
     </div>
