@@ -149,7 +149,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2021/10/rezhim-zanyatij-obuchayushhihsya-2021.pdf"
+              "/wp-content/uploads/2023/09/rezhim-zanyatij-obuchayushhihsya-2023.pdf"
             ); ?>">Режим занятий обучающихся</a>
             </li>
             <li>
