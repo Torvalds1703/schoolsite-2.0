@@ -153,9 +153,8 @@ Template Name: Новые Сведения об ОО
             ); ?>">Режим занятий обучающихся</a>
             </li>
             <li>
-              
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2021/10/polozhenie_o_formah_periodichnosti_i_poryadke_tekushhego_kontrolya_uspevaemosti_2-2021.pdf"
+              "/wp-content/uploads/2023/09/polozhenie-o-formah-periodichnosti-i-poryadke-tekushhego-kontrolya-uspevaemosti2023.pdf"
             ); ?>">Формы, периодичность и порядок текущего контроля успеваемости и промежуточной аттестации обучающихся</a>
             </li>
             <li>
