@@ -245,7 +245,7 @@ Template Name: Новые Сведения об ОО
 
     <div class="accordeon__item accordeon-item accordeon-item--noicon">
       <div class="accordeon-item__card">
-        <p class="accordeon-item__heading">Руководство.</p>
+        <p class="accordeon-item__heading">Руководство</p>
         <p class="accordeon-item__subheading">
           <span class="accordeon-item__amount">Ссылок: 2</span>
           <span class="accordeon-item__close">Свернуть</span>
@@ -292,6 +292,7 @@ Template Name: Новые Сведения об ОО
         <div class="accordeon-item__collapsing">
 
           <ul>
+            <li>
             <a target="_blank" href="<?php echo site_url(
               "/kollektiv/rabotniki-obrazovatelnoj-organizaczii-2/"
             ); ?>">Персональный состав педагогических работников</a>
