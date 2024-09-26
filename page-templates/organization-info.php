@@ -245,9 +245,9 @@ Template Name: Новые Сведения об ОО
 
     <div class="accordeon__item accordeon-item accordeon-item--noicon">
       <div class="accordeon-item__card">
-        <p class="accordeon-item__heading">Руководство. Педагогический (научно-педагогический) состав</p>
+        <p class="accordeon-item__heading">Руководство.</p>
         <p class="accordeon-item__subheading">
-          <span class="accordeon-item__amount">Ссылок: 3</span>
+          <span class="accordeon-item__amount">Ссылок: 2</span>
           <span class="accordeon-item__close">Свернуть</span>
         </p>
           <div class="accordeon-item__arrow">
@@ -272,7 +272,26 @@ Template Name: Новые Сведения об ОО
             <li class="item-inactive">
             <a target="_blank">Руководители филиалов, представительств (отсутствуют)</a>
             </li>
-            <li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="accordeon__item accordeon-item accordeon-item--noicon">
+      <div class="accordeon-item__card">
+        <p class="accordeon-item__heading">Педагогический (научно-педагогический) состав</p>
+        <p class="accordeon-item__subheading">
+          <span class="accordeon-item__amount">Ссылок: 1</span>
+          <span class="accordeon-item__close">Свернуть</span>
+        </p>
+          <div class="accordeon-item__arrow">
+            <img src="<?php echo get_theme_file_uri(
+              "/images/icons/arrow-collapse.svg"
+            ); ?>" alt="">
+          </div>
+        </div>
+        <div class="accordeon-item__collapsing">
+
+          <ul>
             <a target="_blank" href="<?php echo site_url(
               "/kollektiv/rabotniki-obrazovatelnoj-organizaczii-2/"
             ); ?>">Персональный состав педагогических работников</a>
@@ -283,9 +302,9 @@ Template Name: Новые Сведения об ОО
 
     <div class="accordeon__item accordeon-item accordeon-item--noicon">
       <div class="accordeon-item__card">
-        <p class="accordeon-item__heading">Материально-техническое обеспечение и оснащенность образовательного процесса</p>
+        <p class="accordeon-item__heading">Материально-техническое обеспечение и оснащенность образовательного процесса. Доступная среда</p>
         <p class="accordeon-item__subheading">
-          <span class="accordeon-item__amount">Ссылок: 9</span>
+          <span class="accordeon-item__amount">Ссылок: 20</span>
           <span class="accordeon-item__close">Свернуть</span>
         </p>
           <div class="accordeon-item__arrow">
@@ -340,6 +359,67 @@ Template Name: Новые Сведения об ОО
             <a target="_blank" href="<?php echo site_url(
               "/elektronnye-obrazovatelnye-resursy-k-kotorym-obespechivaetsya-dostup-obuchayushhihsya/"
             ); ?>">Электронные образовательные ресурсы</a>
+            </li>
+            <li>
+              <a target="_blank" href="<?php echo site_url(
+                "/usloviya/dostupnaya-sreda-2/"
+              ); ?>">Специально оборудованные учебные кабинеты</a>
+            </li>
+            <li>
+              <a target="_blank" href="<?php echo site_url(
+                "/usloviya/dostupnaya-sreda-2/"
+              ); ?>">Специально оборудованные объекты для проведения практических занятий</a>
+            </li>
+            <li>
+              <a target="_blank" href="<?php echo site_url(
+                "/usloviya/dostupnaya-sreda-2/"
+              ); ?>">Специально оборудованные библиотеки</a>
+            </li>
+            <li>
+              <a target="_blank" href="<?php echo site_url(
+                "/usloviya/dostupnaya-sreda-2/"
+              ); ?>">Специально оборудованные спортивные объекты</a>
+            </li>
+            <li>
+              <a target="_blank" href="<?php echo site_url(
+                "/usloviya/dostupnaya-sreda-2/"
+              ); ?>">Специально оборудованные средства обучения и воспитания</a>
+            </li>
+            <li>
+              <a target="_blank" href="<?php echo site_url(
+                "/usloviya/dostupnaya-sreda-2/"
+              ); ?>">Беспрепятственный доступ в здание</a>
+            </li>
+            <li>
+             <a target="_blank" href="<?php echo site_url(
+               "/usloviya/dostupnaya-sreda-2/"
+             ); ?>">Специальные условия питания</a>
+            </li>
+            <li>
+              <a target="_blank" href="<?php echo site_url(
+                "/usloviya/dostupnaya-sreda-2/"
+              ); ?>">Специальные условия охраны здоровья</a>
+            </li>
+            <li>
+              <a target="_blank" href="<?php echo site_url(
+                "/usloviya/dostupnaya-sreda-2/"
+              ); ?>">Доступ к информационным системам и информационно-телекоммуникационным сетям</a>
+            </li>
+            <li>
+              <a target="_blank" href="<?php echo site_url(
+                "/usloviya/dostupnaya-sreda-2/"
+              ); ?>">Доступ к электронным образовательным ресурсам</a>
+            </li>
+            <li>
+              <a target="_blank" href="<?php echo site_url(
+                "/usloviya/dostupnaya-sreda-2/"
+              ); ?>">Специальные технические средства обучения</a>
+            </li>
+            <li class="item-inactive">
+              <a href="#">Беспрепятственный доступ в общежитие, интернат (не предусмотрено)</a>
+            </li>
+            <li class="item-inactive">
+              <a href="#">Количество специально оборудованных жилых помещений в общежитии, интернате (не предусмотрено)</a>
             </li>
           </ul>
         </div>
@@ -464,86 +544,6 @@ Template Name: Новые Сведения об ОО
             <a target="_blank" href="<?php echo site_url(
               "/vakantnye-mesta-dlya-priema-perevoda/"
             ); ?>">Количество вакантных мест для приема (перевода) обучающихся</a>
-            </li>
-          </ul>
-        </div>
-    </div>
-
-    <div class="accordeon__item accordeon-item accordeon-item--noicon">
-      <div class="accordeon-item__card">
-        <p class="accordeon-item__heading">Доступная среда</p>
-        <p class="accordeon-item__subheading">
-          <span class="accordeon-item__amount">Ссылок: 11</span>
-          <span class="accordeon-item__close">Свернуть</span>
-        </p>
-          <div class="accordeon-item__arrow">
-            <img src="<?php echo get_theme_file_uri(
-              "/images/icons/arrow-collapse.svg"
-            ); ?>" alt="">
-          </div>
-        </div>
-        <div class="accordeon-item__collapsing">
-          <ul>
-            <li>
-              <a target="_blank" href="<?php echo site_url(
-                "/usloviya/dostupnaya-sreda-2/"
-              ); ?>">Специально оборудованные учебные кабинеты</a>
-            </li>
-            <li>
-              <a target="_blank" href="<?php echo site_url(
-                "/usloviya/dostupnaya-sreda-2/"
-              ); ?>">Специально оборудованные объекты для проведения практических занятий</a>
-            </li>
-            <li>
-              <a target="_blank" href="<?php echo site_url(
-                "/usloviya/dostupnaya-sreda-2/"
-              ); ?>">Специально оборудованные библиотеки</a>
-            </li>
-            <li>
-              <a target="_blank" href="<?php echo site_url(
-                "/usloviya/dostupnaya-sreda-2/"
-              ); ?>">Специально оборудованные спортивные объекты</a>
-            </li>
-            <li>
-              <a target="_blank" href="<?php echo site_url(
-                "/usloviya/dostupnaya-sreda-2/"
-              ); ?>">Специально оборудованные средства обучения и воспитания</a>
-            </li>
-            <li>
-              <a target="_blank" href="<?php echo site_url(
-                "/usloviya/dostupnaya-sreda-2/"
-              ); ?>">Беспрепятственный доступ в здание</a>
-            </li>
-            <li>
-             <a target="_blank" href="<?php echo site_url(
-               "/usloviya/dostupnaya-sreda-2/"
-             ); ?>">Специальные условия питания</a>
-            </li>
-            <li>
-              <a target="_blank" href="<?php echo site_url(
-                "/usloviya/dostupnaya-sreda-2/"
-              ); ?>">Специальные условия охраны здоровья</a>
-            </li>
-            <li>
-              <a target="_blank" href="<?php echo site_url(
-                "/usloviya/dostupnaya-sreda-2/"
-              ); ?>">Доступ к информационным системам и информационно-телекоммуникационным сетям</a>
-            </li>
-            <li>
-              <a target="_blank" href="<?php echo site_url(
-                "/usloviya/dostupnaya-sreda-2/"
-              ); ?>">Доступ к электронным образовательным ресурсам</a>
-            </li>
-            <li>
-              <a target="_blank" href="<?php echo site_url(
-                "/usloviya/dostupnaya-sreda-2/"
-              ); ?>">Специальные технические средства обучения</a>
-            </li>
-            <li class="item-inactive">
-              <a href="#">Беспрепятственный доступ в общежитие, интернат (не предусмотрено)</a>
-            </li>
-            <li class="item-inactive">
-              <a href="#">Количество специально оборудованных жилых помещений в общежитии, интернате (не предусмотрено)</a>
             </li>
           </ul>
         </div>
