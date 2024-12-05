@@ -115,7 +115,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2021/10/pravila-vnutrennego-rasporyadka-obuchayushhihsya-2021.pdf"
+              "/wp-content/uploads/2024/12/pravila-vnutrennego-rasporyadka-obuchayushhihsya.pdf"
             ); ?>">Правила внутреннего распорядка обучающихся</a>
             </li>
             <li>
