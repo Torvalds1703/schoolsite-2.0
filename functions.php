@@ -68,7 +68,7 @@ function crb_attach_post_meta()
 add_action("after_setup_theme", "crb_load");
 function crb_load()
 {
-  require_once ABSPATH . "/vendor/autoload.php";
+  require_once ABSPATH . "wp-content/vendor/autoload.php";
   \Carbon_Fields\Carbon_Fields::boot();
 }
 
