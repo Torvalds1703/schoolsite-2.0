@@ -15,7 +15,7 @@ Template Name: Новые Сведения об ОО
       <div class="accordeon-item__card">
         <p class="accordeon-item__heading">Основные сведения</p>
         <p class="accordeon-item__subheading">
-          <span class="accordeon-item__amount">Ссылок: 4</span>
+          <span class="accordeon-item__amount">Ссылок: 6</span>
           <span class="accordeon-item__close">Свернуть</span>
         </p>
           <div class="accordeon-item__arrow">
