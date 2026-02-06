@@ -127,13 +127,13 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2024/12/pravila-vnutrennego-rasporyadka-obuchayushhihsya.pdf"
+              "/wp-content/uploads/2026/02/2.-pravila-vnutrennego-rasporyadka-uchashhihsya.pdf"
             ); ?>">Правила внутреннего распорядка обучающихся</a>
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2022/02/pravila-vnutrennego-trudovogo-rasporyadka.pdf"
-            ); ?>">Правила внутреннего трудового распорядка</a>
+              "/wp-content/uploads/2026/02/3.-pravila-vnutrennego-trudovogo-rasporyadka-2024.pdf" 
+            ); ?>">Правила внутреннего трудового распорядка</a>                                           
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
@@ -156,12 +156,12 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2023/05/pravila-priyoma-v-ou.pdf"
-            ); ?>">Правила приема обучающихся</a>
+              "/wp-content/uploads/2026/02/4.-pravila-priyoma-v-ou-25-26.pdf"
+            ); ?>">Правила приема обучающихся</a>      
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2023/09/rezhim-zanyatij-obuchayushhihsya-2023.pdf"
+              "/wp-content/uploads/2026/02/6.-rezhim-zanyatij-obuchayushhihsya-2025.pdf"            
             ); ?>">Режим занятий обучающихся</a>
             </li>
             <li>
@@ -171,14 +171,14 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2023/05/poryadok-i-osnovaniya-perevoda-otchisleniya-i-vosstanovleniya-obuchayushhihsya-2023.pdf"
-            ); ?>">Порядок и основания перевода, отчисления обучающихся</a>
+              "/wp-content/uploads/2026/02/7.-poryadok-i-osnovaniya-perevoda-otchisleniya-i-vosstanovleniya-obuchayushhihsya-2023.pdf"
+            ); ?>">Порядок и основания перевода, отчисления обучающихся</a>           
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2021/10/poryadok-oformleniya-vozniknoveniya-2021.pdf"
+              "/wp-content/uploads/2026/02/8.-poryadok-oformleniya-vozniknoveniya-priostanovleniya-prekrashheniya-otnoshenij.pdf"
             ); ?>">Порядок оформления возникновения, приостановления и прекращения отношений между образовательной организацией и обучающимися и (или) родителями (законными представителями) несовершеннолетних обучающихся</a>
-            </li>
+            </li>    
             <li>
             <a target="_blank" href="<?php echo site_url(
               "/dokumenty/organizaczionno-rasporyaditelnye-dokumenty/"
