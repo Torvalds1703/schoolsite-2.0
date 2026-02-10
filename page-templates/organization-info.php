@@ -147,8 +147,14 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2023/09/graik_ocenochnix_procedyr_23-4.pdf"
-            ); ?>">График проведения оценочных процедур</a>
+              "/wp-content/uploads/2023/09/graik_ocenochnix_procedyr_23-4.pdf" 
+            ); ?>">График проведения оценочных процедур в 2025-2026 (I полугодие)</a>
+            </li>
+
+             <li>
+            <a target="_blank" href="<?php echo site_url(
+              "/wp-content/uploads/2026/01/grafik-oczenochnyh-proczedur-2-polugodie.pdf"
+            ); ?>">График проведения оценочных процедур в 2025-2026 (II полугодие)</a>
             </li>
             
             <li class="item-inactive">
