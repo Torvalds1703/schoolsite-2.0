@@ -1,6 +1,6 @@
 <section
   class="container-fluid justify-content-between p-3 hero-section border-bottom"
-  style="background-image: url(<?php echo get_theme_file_uri("/images/hero-image.jpg"); ?>);"
+  style="background-image: url(<?php echo get_theme_file_uri("/images/hero-image.png"); ?>);"
 >
   <div class="row">
     <div class="col-3 d-none d-xl-block">
