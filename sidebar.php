@@ -136,7 +136,7 @@
             <a target="_blank" href="https://k-obr.spb.ru/napravleniya-deyatelnosti/obrazovanie-bez-byurokratii/" class="aside__banner">
             ); ?>" class="aside__banner">
                   <img src="<?php echo get_theme_file_uri(
-                    "/images/banners/nagruzka-bane.png"
+                    "/images/banners/nagruzka-baner.png"
                   ); ?>" alt="">
             </a>
 
