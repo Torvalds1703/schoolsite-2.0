@@ -172,7 +172,7 @@ Template Name: Новые Сведения об ОО
             </li>
             <li>
             <a target="_blank" href="<?php echo site_url(
-              "/wp-content/uploads/2023/09/polozhenie-o-formah-periodichnosti-i-poryadke-tekushhego-kontrolya-uspevaemosti2023.pdf"
+              "/wp-content/uploads/2026/04/polozhenie-o-formah-periodichnosti-poryadke-tekushhego-kontrolya-uspevaemosti-promezhutochnoj-attestaczii-gbou-sosh-653__2026.pdf"
             ); ?>">Формы, периодичность и порядок текущего контроля успеваемости и промежуточной аттестации обучающихся</a>
             </li>
             <li>
