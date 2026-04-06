@@ -321,7 +321,7 @@ Template Name: Новые Сведения об ОО
 
     <div class="accordeon__item accordeon-item accordeon-item--noicon">
       <div class="accordeon-item__card">
-        <p class="accordeon-item__heading">Материально-техническое обеспечение и оснащенность образовательного процесса. Доступная среда</p>
+        <p class="accordeon-item__heading">Материально-техническое обеспечение и оснащенность образовательного процесса. Доступная среда </p>
         <p class="accordeon-item__subheading">
           <span class="accordeon-item__amount">Ссылок: 20</span>
           <span class="accordeon-item__close">Свернуть</span>
